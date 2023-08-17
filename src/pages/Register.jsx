@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { albumImagenesEstaticas } from '../assets/images/ImagenesStaticas'
 import { Link } from 'react-router-dom'
-import SelectPhoneCodes from '../services/SelectPhoneCodes'
+import SelectPhoneCodes from '../components/SelectPhoneCodes'
+import ConfirmSMS from '../components/ConfirmSMS'
 
 const Register = () => {
   const [form,setForm] = useState()
@@ -31,16 +32,17 @@ const Register = () => {
                         </div>
                         <div className='flex flex-col gap-1'>
                             <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="telefono">Teléfono</label>
-                            <div className='flex'>
-                                <select className='w-20'>
+                            <div className='flex rounded-[15px] border-2 border-black pl-2 p-1 w-[20rem]'>
+                                <select className='w-20 h-7 border-none border-0'>
                                     <SelectPhoneCodes/>
                                 </select>
-                                <input id='telefono' className='rounded-[15px] h-10 w-[5rem] border-2 border-black pl-4' type="tel" title='Incluye solo números' pattern="[0-9]{10}"/>
+                                <input id='telefono' className='outline-none h-7 w-[13rem] pl-2' type="tel" title='Incluye solo números' pattern="[0-9]{10}"/>
                             </div>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="codigoSMS">Código SMS</label>
-                            <input id='codigoSMS' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' type="text" />
+                            <ConfirmSMS></ConfirmSMS>
+                            {/* <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="codigoSMS">Código SMS</label>
+                            <input id='codigoSMS' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' type="text" /> */}
                         </div>
                         <div className='flex flex-col gap-1'>
                             <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="contraseña">Contraseña</label>
@@ -54,8 +56,8 @@ const Register = () => {
                     <input type="submit" className='mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black' value="Registrarse" />
                 </form>
                 <div className='w-auto flex-col flex gap-6 pb-8'>
-                    <Link to="/" className='underline onlyLine text-[1.328125rem]'>{"<-- ¿Ya tiene un usuario?"}</Link>
-                    <Link to="/" className='underline onlyLine text-[1.328125rem]'>{"<-- Volver"}</Link>
+                    <Link to="/" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  ¿Ya tiene un usuario?</Link>
+                    <Link to="/" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  Volver</Link>
                 </div>
             </section>
             {/* Imagen de acompañamiento*/}
