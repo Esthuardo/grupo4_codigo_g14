@@ -3,6 +3,7 @@ import { useRef } from 'react'
 import { albumImagenesEstaticas } from '../assets/images/ImagenesStaticas'
 const ConfirmSMS = () => {
   const [SMS,setSMS] = useState(['','','','',''])
+  const [texto,setTexto] = useState({texto:'Enviar código', color: 'text-blue-600'})
   const referencia = useRef([])
 
   const handleInput = (event, index)=>{
@@ -16,9 +17,24 @@ const ConfirmSMS = () => {
   // Este codigo es temporal solo para confirmar que funcione adecuadamente
   const CodigoTemporal = '12345'
 
+  const handleSumbit = ()=>{
+    let codigo=''
+    for (let index = 0; index < SMS.length; index++) {
+      codigo = codigo + SMS[index]
+    }
+    if (CodigoTemporal === codigo) {
+      setTexto({texto: '¡Código correcto!', color: 'text-emerald-400'})
+    }else{
+      setTexto({texto: '¡Código incorrecto!', color: 'text-red-400'})
+    }
+  }
+
   return (
     <>
-        <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="SMS">Código SMS</label>
+        <div className='flex justify-between items-center'>
+          <label className='ml-2 text-[1.328125rem] onlyLine'>Código SMS</label>
+          <label className={`text-[1rem] onlyLine mr-3 ${texto.color}`}> {texto.texto}</label>
+        </div>
         <div className='flex gap-4 justify-center'>
             {SMS.map((sms,index)=>(
                 <input
@@ -31,7 +47,7 @@ const ConfirmSMS = () => {
                   ref={elemento => referencia.current[index]=elemento}
                   />
             ))}
-            <img className='h-10' src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS"/>
+            <img className='h-10' src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS" onClick={handleSumbit}/>
         </div>
         {/* <input id='codigoSMS' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' type="text" /> */}
     </>
