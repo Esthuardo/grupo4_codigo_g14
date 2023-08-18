@@ -56,7 +56,7 @@ const Register = () => {
                     <input type="submit" className='mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black' value="Registrarse" />
                 </form>
                 <div className='w-auto flex-col flex gap-6 pb-8'>
-                    <Link to="/" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  ¿Ya tiene un usuario?</Link>
+                    <Link to="/login" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  ¿Ya tiene un usuario?</Link>
                     <Link to="/" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  Volver</Link>
                 </div>
             </section>
