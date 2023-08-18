@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .onlyLine{
+    display: block;
+    width: fit-content;
+}
