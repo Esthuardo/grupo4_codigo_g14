@@ -17,7 +17,7 @@ const ConfirmSMS = () => {
                 <input  className='rounded-md h-10 w-8 border-2 border-black text-center' ref={codigo} maxLength={1} type='text' required onInput={event=>handleInput(event,index+1)}/>
             ))}
             {/* al escribir la funcion hace focus al input siguiente, por lo que el ref sirve para que el focus continue y no se mantenga en el inicial */}
-            <img className='h-10' src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS"/>
+            <img className='h-12' src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS"/>
         </div>
         {/* <input id='codigoSMS' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' type="text" /> */}
     </>
