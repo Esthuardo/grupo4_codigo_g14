@@ -4,6 +4,7 @@ import { albumImagenesEstaticas } from '../assets/images/ImagenesStaticas'
 const ConfirmSMS = () => {
   const [SMS,setSMS] = useState(['','','','',''])
   const [texto,setTexto] = useState({texto:'Enviar código', color: 'text-blue-600'})
+  const [deshabilitado,setDeshabilitado] = useState(true)
   const referencia = useRef([])
 
   const handleInput = (event, index)=>{
@@ -17,7 +18,7 @@ const ConfirmSMS = () => {
   // Este codigo es temporal solo para confirmar que funcione adecuadamente
   const CodigoTemporal = '12345'
 
-  const handleSumbit = ()=>{
+  const handleClick = ()=>{
     let codigo=''
     for (let index = 0; index < SMS.length; index++) {
       codigo = codigo + SMS[index]
@@ -33,7 +34,7 @@ const ConfirmSMS = () => {
     <>
         <div className='flex justify-between items-center'>
           <label className='ml-2 text-[1.328125rem] onlyLine'>Código SMS</label>
-          <label className={`text-[1rem] onlyLine mr-3 ${texto.color}`}> {texto.texto}</label>
+          <label className={`text-[1rem] onlyLine mr-3 cursor-pointer ${texto.color}`} onClick={()=>setDeshabilitado(false)}> {texto.texto}</label>
         </div>
         <div className='flex gap-4 justify-center'>
             {SMS.map((sms,index)=>(
@@ -47,9 +48,10 @@ const ConfirmSMS = () => {
                   ref={elemento => referencia.current[index]=elemento}
                   />
             ))}
-            <img className='h-10' src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS" onClick={handleSumbit}/>
+            <button onClick={handleClick} disabled={deshabilitado} className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : ''} `}>
+              <img className='h-10 ' src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS"/>
+            </button>
         </div>
-        {/* <input id='codigoSMS' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' type="text" /> */}
     </>
   )
 }
