@@ -5,7 +5,7 @@ const SelectPhoneCodes = () => {
   return (
     <>
       {countries.countries.map(country=>
-        (<option value={country.code}>{`(${country.code})`}{country.name}</option>)
+        (<option key={country.name} value={country.code}>{`(${country.code})`}{country.name}</option>)
       )}
     </>
   )
