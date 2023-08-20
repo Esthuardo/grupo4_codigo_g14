@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { albumImagenesEstaticas } from '../assets/images/ImagenesStaticas'
-import { Form, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import SelectPhoneCodes from '../components/SelectPhoneCodes'
 import ConfirmSMS from '../components/ConfirmSMS'
+import PopUpRegister from '../components/pop_ups/PopUpRegister'
 
 const Register = () => {
   const [form,setForm] = useState({
@@ -15,14 +16,26 @@ const Register = () => {
     contraseña: '',
     confirmContraseña: ''
   })
+  const [popUp,setPopup]=useState({
+    show: false,
+    text:'Contraseñas invalidas, por favor ingrese una la misma contraseña en los campos correspondientes'
+  })
   const handleChange=(event)=>{
     const name=event.target.id
     const value=event.target.value
     setForm({ ...form, [name]: value })
   }
+  const handleConfirm=(valor)=>{
+    setForm({ ...form, confirmSMS: valor })
+  }
   const handleSubmit=(event)=>{
     event.preventDefault()
-    console.log(form)
+    if (form.contraseña === form.confirmContraseña && form.contraseña!=='' &&form.confirmContraseña!=='') {
+        //Aqui iria para guardarlo en el JSON o base de datos
+        
+    }else{
+        setPopup({...popUp,show:true})
+    }
   }
   return (
     <>
@@ -57,7 +70,7 @@ const Register = () => {
                             </div>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <ConfirmSMS></ConfirmSMS>
+                            <ConfirmSMS handleConfirm={handleConfirm}></ConfirmSMS>
                         </div>
                         <div className='flex flex-col gap-1'>
                             <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="contraseña">Contraseña</label>
@@ -68,12 +81,13 @@ const Register = () => {
                             <input id='confirmContraseña' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' required minLength={8} pattern="^(?=.*[A-Z]).{8,}$" type="password" onInput={handleChange} />
                         </div>
                     </section>
-                    <input type="submit" className='mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black' value="Registrarse" onClick={handleSubmit}/>
+                    <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" onClick={handleSubmit} title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
                 </form>
                 <div className='w-auto flex-col flex gap-6 pb-8'>
                     <Link to="/login" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  ¿Ya tiene un usuario?</Link>
                     <Link to="/" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  Volver</Link>
                 </div>
+                <PopUpRegister isOpen={popUp.show} onRequestClose={()=>setPopup({...popUp, show: false})} texto={popUp.text}/>
             </section>
             {/* Imagen de acompañamiento*/}
             <section className='w-1/2'>

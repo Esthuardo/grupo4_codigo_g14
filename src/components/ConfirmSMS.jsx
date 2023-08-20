@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useRef } from 'react'
 import { albumImagenesEstaticas } from '../assets/images/ImagenesStaticas'
-const ConfirmSMS = () => {
+const ConfirmSMS = ({handleConfirm}) => {
   const [SMS,setSMS] = useState(['','','','',''])
   const [texto,setTexto] = useState({texto:'Enviar código', color: 'text-blue-600'})
   const [deshabilitado,setDeshabilitado] = useState(true)
@@ -25,8 +25,10 @@ const ConfirmSMS = () => {
     }
     if (CodigoTemporal === codigo) {
       setTexto({texto: '¡Código correcto!', color: 'text-emerald-400'})
+      handleConfirm(true)
     }else{
-      setTexto({texto: '¡Código incorrecto!', color: 'text-red-400'})
+      setTexto({texto: 'Incorrecto - reenviar código', color: 'text-1xl text-red-400'})
+      handleConfirm(false)
     }
   }
 
@@ -48,9 +50,7 @@ const ConfirmSMS = () => {
                   ref={elemento => referencia.current[index]=elemento}
                   />
             ))}
-            <button onClick={handleClick} disabled={deshabilitado} className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : ''} `}>
-              <img className='h-10 ' src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS"/>
-            </button>
+            <img className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : 'cursor-pointer'} h-10`} src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS" onClick={handleClick} disabled={deshabilitado} id='confirmSMS'/>
         </div>
     </>
   )
