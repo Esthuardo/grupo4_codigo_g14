@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import { albumImagenesEstaticas } from '../assets/images/ImagenesStaticas'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate} from 'react-router-dom'
 import SelectPhoneCodes from '../components/SelectPhoneCodes'
 import ConfirmSMS from '../components/ConfirmSMS'
 import PopUpRegister from '../components/pop_ups/PopUpRegister'
+import InputPassword from '../components/inputPassword'
 
 const Register = () => {
+  const navigate = useNavigate()
   const [form,setForm] = useState({
     apellidos:'',
     nombres: '',
@@ -30,9 +32,10 @@ const Register = () => {
   }
   const handleSubmit=(event)=>{
     event.preventDefault()
-    if (form.contraseña === form.confirmContraseña && form.contraseña!=='' &&form.confirmContraseña!=='') {
+    if (form.contraseña === form.confirmContraseña && form.contraseña!=='' && form.confirmContraseña!=='') {
         //Aqui iria para guardarlo en el JSON o base de datos
-        
+        console.log(form)
+        //navigate('/')
     }else{
         setPopup({...popUp,show:true})
     }
@@ -63,7 +66,7 @@ const Register = () => {
                         <div className='flex flex-col gap-1'>
                             <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="telefono">Teléfono</label>
                             <div className='flex rounded-[15px] border-2 border-black pl-2 p-1 w-[20rem]'>
-                                <select className='w-20 h-7 border-none border-0' onChange={handleChange} id='codePhone'>
+                                <select className='w-20 h-7 border-none border-0' onChange={handleChange} id='phoneCode'>
                                     <SelectPhoneCodes />
                                 </select>
                                 <input id='telefono' className='outline-none h-7 w-[13rem] pl-2' type="tel" title='Incluye solo números' pattern="[0-9]{9}" onInput={handleChange}/>
@@ -73,12 +76,10 @@ const Register = () => {
                             <ConfirmSMS handleConfirm={handleConfirm}></ConfirmSMS>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="contraseña">Contraseña</label>
-                            <input id='contraseña' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' required minLength={8} pattern="^(?=.*[A-Z]).{8,}$" type="password" onInput={handleChange} />
+                            <InputPassword handleChange={handleChange} id='contraseña' nombre='Contraseña'/>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="confirmContraseña">Confirmar contraseña</label>
-                            <input id='confirmContraseña' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' required minLength={8} pattern="^(?=.*[A-Z]).{8,}$" type="password" onInput={handleChange} />
+                            <InputPassword handleChange={handleChange} id='confirmContraseña' nombre='Confirmar Contraseña'/>
                         </div>
                     </section>
                     <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" onClick={handleSubmit} title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
