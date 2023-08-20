@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useRef } from 'react'
-import { albumImagenesEstaticas } from '../assets/images/ImagenesStaticas'
+import confirmarSMS from '../assets/images/StaticImages/ConfirmarSMS.svg'
+
 const ConfirmSMS = ({handleConfirm}) => {
   const [SMS,setSMS] = useState(['','','','',''])
   const [texto,setTexto] = useState({texto:'Enviar código', color: 'text-blue-600'})
@@ -50,7 +51,7 @@ const ConfirmSMS = ({handleConfirm}) => {
                   ref={elemento => referencia.current[index]=elemento}
                   />
             ))}
-            <img className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : 'cursor-pointer'} h-10`} src={albumImagenesEstaticas.confirmarSMS} alt="Confirmar SMS" onClick={handleClick} disabled={deshabilitado} id='confirmSMS'/>
+            <img className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : 'cursor-pointer'} h-10`} src={confirmarSMS} alt="Confirmar SMS" onClick={handleClick} disabled={deshabilitado} id='confirmSMS'/>
         </div>
     </>
   )

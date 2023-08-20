@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { albumImagenesEstaticas } from '../assets/images/ImagenesStaticas'
+import registro from '../assets/images/StaticImages/RegisterImage.png'
 import { Link, useNavigate} from 'react-router-dom'
 import SelectPhoneCodes from '../components/SelectPhoneCodes'
 import ConfirmSMS from '../components/ConfirmSMS'
@@ -92,7 +92,7 @@ const Register = () => {
             </section>
             {/* Imagen de acompañamiento*/}
             <section className='w-1/2'>
-                <img className='w-full h-full' src={albumImagenesEstaticas.registro} alt="" />
+                <img className='w-full h-full' src={registro} alt="" />
             </section>
         </main>
     </>
