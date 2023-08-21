@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
-import registro from '../assets/images/StaticImages/RegisterImage.png'
 import { Link, useNavigate} from 'react-router-dom'
+
 import SelectPhoneCodes from '../components/SelectPhoneCodes'
 import ConfirmSMS from '../components/ConfirmSMS'
 import PopUpRegister from '../components/pop_ups/PopUpRegister'
 import InputPassword from '../components/inputPassword'
+import InputUser from '../components/inputUser'
+
+import registro from '../assets/images/StaticImages/RegisterImage.png'
 
 const Register = () => {
   const navigate = useNavigate()
@@ -52,12 +55,10 @@ const Register = () => {
                     </section>
                     <section className='container grid grid-cols-2 gap-1 mt-[2.1875rem]'>
                         <div className='flex flex-col gap-1'>
-                            <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="apellidos">Apellidos</label>
-                            <input id='apellidos' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' type="text" pattern='^[^0-9]+$' title='No se permiten números' required onInput={handleChange} />
+                            <InputUser handleChange={handleChange} id='apellidos' name='Apellidos' placeHolder='Ingrese sus apellidos'/>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="nombres">Nombres</label>
-                            <input id='nombres' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' type="text" pattern='^[^0-9]+$' title='No se permiten números' required onInput={handleChange}/>
+                            <InputUser handleChange={handleChange} id='nombres' name='Nombres' placeHolder='Ingrese sus nombres'/>
                         </div>
                         <div className='flex flex-col gap-1 col-span-2'>
                             <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor="email">Correo electrónico</label>
@@ -76,10 +77,10 @@ const Register = () => {
                             <ConfirmSMS handleConfirm={handleConfirm}></ConfirmSMS>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <InputPassword handleChange={handleChange} id='contraseña' nombre='Contraseña'/>
+                            <InputPassword handleChange={handleChange} id='contraseña' name='Contraseña'/>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <InputPassword handleChange={handleChange} id='confirmContraseña' nombre='Confirmar Contraseña'/>
+                            <InputPassword handleChange={handleChange} id='confirmContraseña' name='Confirmar Contraseña'/>
                         </div>
                     </section>
                     <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" onClick={handleSubmit} title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
