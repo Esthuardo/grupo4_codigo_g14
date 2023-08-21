@@ -37,8 +37,7 @@ const Register = () => {
     event.preventDefault()
     if (form.contraseña === form.confirmContraseña && form.contraseña!=='' && form.confirmContraseña!=='') {
         //Aqui iria para guardarlo en el JSON o base de datos
-        console.log(form)
-        //navigate('/')
+        navigate('/')
     }else{
         setPopup({...popUp,show:true})
     }
@@ -70,7 +69,7 @@ const Register = () => {
                                 <select className='w-20 h-7 border-none border-0' onChange={handleChange} id='phoneCode'>
                                     <SelectPhoneCodes />
                                 </select>
-                                <input id='telefono' className='outline-none h-7 w-[13rem] pl-2' type="tel" title='Incluye solo números' pattern="[0-9]{9}" onInput={handleChange}/>
+                                <input id='telefono' className='outline-none h-7 w-[13rem] pl-2' type="tel" title='Incluye solo números' pattern="[0-9]{9}" onInput={handleChange} required/>
                             </div>
                         </div>
                         <div className='flex flex-col gap-1'>
