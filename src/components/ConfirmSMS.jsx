@@ -1,12 +1,20 @@
 import React, { useState } from 'react'
 import { useRef } from 'react'
+
+import PopUpRegister from './pop_ups/PopUpAlert'
+
 import confirmarSMS from '../assets/images/StaticImages/ConfirmarSMS.svg'
 
-const ConfirmSMS = ({handleConfirm}) => {
+const ConfirmSMS = ({handleConfirm,phoneCode,telefono}) => {
   const [SMS,setSMS] = useState(['','','','',''])
   const [texto,setTexto] = useState({texto:'Enviar código', color: 'text-blue-600'})
   const [deshabilitado,setDeshabilitado] = useState(true)
   const referencia = useRef([])
+
+  const [popUp,setPopup]=useState({
+    show: false,
+    text:'Debe escribir su número de telefóno junto al código de su país para enviarle su código de verificación'
+  })
 
   const handleInput = (event, index)=>{
     const nuevoCodigo = [...SMS]
@@ -28,8 +36,16 @@ const ConfirmSMS = ({handleConfirm}) => {
       setTexto({texto: '¡Código correcto!', color: 'text-emerald-400'})
       handleConfirm(true)
     }else{
-      setTexto({texto: 'Incorrecto - reenviar código', color: 'text-1xl text-red-400'})
+      setTexto({texto: 'Incorrecto-reenviar código', color: 'text-1xl text-red-400'})
       handleConfirm(false)
+    }
+  }
+
+  const confirmarNumero=()=>{
+    if (phoneCode!=='' && telefono !=='') {
+      setDeshabilitado(false)
+    }else{
+      setPopup({...popUp,show:true})
     }
   }
 
@@ -37,7 +53,7 @@ const ConfirmSMS = ({handleConfirm}) => {
     <>
         <div className='flex justify-between items-center'>
           <label className='ml-2 text-[1.328125rem] onlyLine'>Código SMS</label>
-          <label className={`text-[1rem] onlyLine mr-3 cursor-pointer ${texto.color}`} onClick={()=>setDeshabilitado(false)}> {texto.texto}</label>
+          <label className={`text-[1rem] onlyLine mr-3 cursor-pointer ${texto.color}`} onClick={confirmarNumero}> {texto.texto}</label>
         </div>
         <div className='flex gap-4 justify-center'>
             {SMS.map((sms,index)=>(
@@ -52,6 +68,7 @@ const ConfirmSMS = ({handleConfirm}) => {
                   />
             ))}
             <img className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : 'cursor-pointer'} h-10`} src={confirmarSMS} alt="Confirmar SMS" onClick={handleClick} disabled={deshabilitado} id='confirmSMS'/>
+            <PopUpRegister isOpen={popUp.show} onRequestClose={()=>setPopup({...popUp, show: false})} texto={popUp.text}/>
         </div>
     </>
   )

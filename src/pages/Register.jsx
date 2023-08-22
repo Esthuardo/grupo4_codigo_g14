@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import { Link, useNavigate} from 'react-router-dom'
 
 import SelectPhoneCodes from '../components/SelectPhoneCodes'
 import ConfirmSMS from '../components/ConfirmSMS'
-import PopUpRegister from '../components/pop_ups/PopUpRegister'
+import PopUpRegister from '../components/pop_ups/PopUpAlert'
 import InputPassword from '../components/inputPassword'
 import InputUser from '../components/inputUser'
 
@@ -12,6 +12,7 @@ import registro from '../assets/images/StaticImages/RegisterImage.png'
 const Register = () => {
   const navigate = useNavigate()
   const [form,setForm] = useState({
+    id:'',
     apellidos:'',
     nombres: '',
     email:'',
@@ -25,6 +26,13 @@ const Register = () => {
     show: false,
     text:'Contraseñas invalidas, por favor ingrese una la misma contraseña en los campos correspondientes'
   })
+
+  useState(()=>{
+    const id_name='id'
+    const id_value=Date.now().toString(30) + Math.random().toString(30).substring(2)
+    setForm({...form,[id_name]:id_value})
+  },[])
+
   const handleChange=(event)=>{
     const name=event.target.id
     const value=event.target.value
@@ -73,7 +81,7 @@ const Register = () => {
                             </div>
                         </div>
                         <div className='flex flex-col gap-1'>
-                            <ConfirmSMS handleConfirm={handleConfirm}></ConfirmSMS>
+                            <ConfirmSMS handleConfirm={handleConfirm} phoneCode={form.phoneCode} telefono={form.telefono}></ConfirmSMS>
                         </div>
                         <div className='flex flex-col gap-1'>
                             <InputPassword handleChange={handleChange} id='contraseña' name='Contraseña'/>
