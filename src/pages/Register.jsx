@@ -1,15 +1,17 @@
 import React, { useState} from 'react'
 import { Link, useNavigate} from 'react-router-dom'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 import SelectPhoneCodes from '../components/SelectPhoneCodes'
 import ConfirmSMS from '../components/ConfirmSMS'
-import PopUpRegister from '../components/pop_ups/PopUpAlert'
 import InputPassword from '../components/inputPassword'
 import InputUser from '../components/inputUser'
 
 import registro from '../assets/images/StaticImages/RegisterImage.png'
 
 const Register = () => {
+  const MySwal = withReactContent(Swal)
   const navigate = useNavigate()
   const [form,setForm] = useState({
     id:'',
@@ -22,11 +24,6 @@ const Register = () => {
     contraseña: '',
     confirmContraseña: ''
   })
-  const [popUp,setPopup]=useState({
-    show: false,
-    text:'Contraseñas invalidas, por favor ingrese una la misma contraseña en los campos correspondientes'
-  })
-
   useState(()=>{
     const id_name='id'
     const id_value=Date.now().toString(30) + Math.random().toString(30).substring(2)
@@ -47,7 +44,11 @@ const Register = () => {
         //Aqui iria para guardarlo en el JSON o base de datos
         navigate('/')
     }else{
-        setPopup({...popUp,show:true})
+        Swal.fire({
+            icon: 'error',
+            title: 'Contraseñas incorrectas',
+            text: 'Ambas contraseñas deben ser iguales y no estar vacias',
+        })
     }
   }
   return (
@@ -90,13 +91,12 @@ const Register = () => {
                             <InputPassword handleChange={handleChange} id='confirmContraseña' name='Confirmar Contraseña'/>
                         </div>
                     </section>
-                    <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" onClick={handleSubmit} title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
+                    <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" onSubmit={handleSubmit} title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
                 </form>
                 <div className='w-auto flex-col flex gap-6 pb-8'>
                     <Link to="/login" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  ¿Ya tiene un usuario?</Link>
                     <Link to="/" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  Volver</Link>
                 </div>
-                <PopUpRegister isOpen={popUp.show} onRequestClose={()=>setPopup({...popUp, show: false})} texto={popUp.text}/>
             </section>
             {/* Imagen de acompañamiento*/}
             <section className='w-1/2'>

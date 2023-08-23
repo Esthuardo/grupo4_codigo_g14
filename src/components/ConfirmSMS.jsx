@@ -1,20 +1,16 @@
 import React, { useState } from 'react'
 import { useRef } from 'react'
-
-import PopUpRegister from './pop_ups/PopUpAlert'
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 import confirmarSMS from '../assets/images/StaticImages/ConfirmarSMS.svg'
 
 const ConfirmSMS = ({handleConfirm,phoneCode,telefono}) => {
+  const MySwal = withReactContent(Swal)
   const [SMS,setSMS] = useState(['','','','',''])
   const [texto,setTexto] = useState({texto:'Enviar código', color: 'text-blue-600'})
   const [deshabilitado,setDeshabilitado] = useState(true)
   const referencia = useRef([])
-
-  const [popUp,setPopup]=useState({
-    show: false,
-    text:'Debe escribir su número de telefóno junto al código de su país para enviarle su código de verificación'
-  })
 
   const handleInput = (event, index)=>{
     const nuevoCodigo = [...SMS]
@@ -45,7 +41,11 @@ const ConfirmSMS = ({handleConfirm,phoneCode,telefono}) => {
     if (phoneCode!=='' && telefono !=='') {
       setDeshabilitado(false)
     }else{
-      setPopup({...popUp,show:true})
+      Swal.fire({
+        icon: 'error',
+        title: 'Faltan datos',
+        text: 'Debe ingresar un número de telefono junto al código de su país para recibir el mensaje',
+      })
     }
   }
 
@@ -68,7 +68,7 @@ const ConfirmSMS = ({handleConfirm,phoneCode,telefono}) => {
                   />
             ))}
             <img className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : 'cursor-pointer'} h-10`} src={confirmarSMS} alt="Confirmar SMS" onClick={handleClick} disabled={deshabilitado} id='confirmSMS'/>
-            <PopUpRegister isOpen={popUp.show} onRequestClose={()=>setPopup({...popUp, show: false})} texto={popUp.text}/>
+
         </div>
     </>
   )
