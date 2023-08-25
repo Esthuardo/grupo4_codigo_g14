@@ -7,6 +7,7 @@ import SelectPhoneCodes from '../components/SelectPhoneCodes'
 import ConfirmSMS from '../components/ConfirmSMS'
 import InputPassword from '../components/inputPassword'
 import InputUser from '../components/inputUser'
+import useUserAuth from '../hooks/useUserAuth'
 
 import registro from '../assets/images/StaticImages/RegisterImage.png'
 
@@ -38,11 +39,21 @@ const Register = () => {
   const handleConfirm=(valor)=>{
     setForm({ ...form, confirmSMS: valor })
   }
-  const handleSubmit=(event)=>{
+  const handleSubmit=async (event)=>{
     event.preventDefault()
     if (form.contraseña === form.confirmContraseña && form.contraseña!=='' && form.confirmContraseña!=='') {
-        //Aqui iria para guardarlo en el JSON o base de datos
-        navigate('/')
+        const user = await useUserAuth(form.email,form.contraseña)
+        if (user) {
+            navigate('/')
+        }else{
+            Swal.fire({
+                icon: 'error',
+                title: 'Error al crear nuevo usuario',
+                text: 'Se produjo un error al crear un nuevo usuario, vuelva a intentarlo por favor',
+            })
+        }
+        
+        
     }else{
         Swal.fire({
             icon: 'error',
@@ -91,7 +102,7 @@ const Register = () => {
                             <InputPassword handleChange={handleChange} id='confirmContraseña' name='Confirmar Contraseña'/>
                         </div>
                     </section>
-                    <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" onSubmit={handleSubmit} title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
+                    <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" onClick={handleSubmit} title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
                 </form>
                 <div className='w-auto flex-col flex gap-6 pb-8'>
                     <Link to="/login" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  ¿Ya tiene un usuario?</Link>
