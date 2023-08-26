@@ -7,7 +7,9 @@ import SelectPhoneCodes from '../components/SelectPhoneCodes'
 import ConfirmSMS from '../components/ConfirmSMS'
 import InputPassword from '../components/inputPassword'
 import InputUser from '../components/inputUser'
+
 import useUserAuth from '../hooks/useUserAuth'
+import { userUserStats } from '../hooks/useUserStats'
 
 import registro from '../assets/images/StaticImages/RegisterImage.png'
 
@@ -44,6 +46,8 @@ const Register = () => {
     if (form.contraseña === form.confirmContraseña && form.contraseña!=='' && form.confirmContraseña!=='') {
         const user = await useUserAuth(form.email,form.contraseña)
         if (user) {
+            const {createUser} = userUserStats()
+            await createUser(form)
             navigate('/')
         }else{
             Swal.fire({
@@ -52,8 +56,6 @@ const Register = () => {
                 text: 'Se produjo un error al crear un nuevo usuario, vuelva a intentarlo por favor',
             })
         }
-        
-        
     }else{
         Swal.fire({
             icon: 'error',
