@@ -49,6 +49,12 @@ const Register = () => {
             const {createUser} = userUserStats()
             await createUser(form)
             navigate('/')
+            //si logra crear el usuario que lo guarde en el local storage para el PrimaryLayout
+            const datosUsuario={
+                nombre: form.nombres,
+                email: form.email
+            }
+            localStorage.setItem('datosUsuario',JSON.stringify(datosUsuario))
         }else{
             Swal.fire({
                 icon: 'error',
@@ -69,7 +75,7 @@ const Register = () => {
         <main className='flex w-full h-full'>
             {/* Formulario con los datos a recolectar */}
             <section className='w-1/2 pl-[4.5625rem] flex flex-col gap-5'>
-                <form className='flex flex-col gap-'>
+                <form className='flex flex-col gap-' onSubmit={handleSubmit}>
                     <section className='flex justify-between mt-[2.38125rem] items-center'>
                         <h1 className='font-bold text-[3.5rem]'>Registro</h1>
                         <img className='w-[8rem] h-[8rem] rounded-full bg-red-300 mr-4' src="" alt="logo"/>
@@ -104,7 +110,7 @@ const Register = () => {
                             <InputPassword handleChange={handleChange} id='confirmContraseña' name='Confirmar Contraseña'/>
                         </div>
                     </section>
-                    <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" onClick={handleSubmit} title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
+                    <input type="submit" className={`cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500 ${!form.confirmSMS ? 'opacity-50':''}`} value="Registrarse" title='Recuerde completar todos los campos y que el SMS sea el correcto'disabled={!form.confirmSMS}/>
                 </form>
                 <div className='w-auto flex-col flex gap-6 pb-8'>
                     <Link to="/login" className='text-[1.328125rem] underline onlyLine'><span>&#8592;</span>  ¿Ya tiene un usuario?</Link>
