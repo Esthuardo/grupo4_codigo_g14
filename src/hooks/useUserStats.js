@@ -1,8 +1,9 @@
-import { addDoc, collection } from "firebase/firestore"
+import { addDoc, collection, getDocs, query, where } from "firebase/firestore"
 import { firestore } from "../services/firebase"
 
 export const userUserStats = () =>{
     const reference = collection(firestore,'users')
+
     const createUser = async(form) =>{
         const newUser = {
             Apellidos: form.apellidos,
@@ -12,9 +13,21 @@ export const userUserStats = () =>{
             contraseña: form.contraseña
         }
         const response = await addDoc(reference,newUser)
-        return{ id: form.id,newUser}
+        return{ id: response.id,newUser}
+    }
+    //Obtenemos el usuario debido a que el id en firestore es distinto al de authentication y al pasar el de authentication no cumple con las reglas de firestore ;-;
+    const obtainUser = async(email)=>{
+        const emailUsuario = query(reference, where('email','==',email))
+        const response = await getDocs(emailUsuario)
+        if (response.empty) {
+            return null
+        }else{
+            const user = response.docs[0]
+            return user.data()
+        }
     }
     return{
-        createUser
+        createUser,
+        obtainUser
     }
 }

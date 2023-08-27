@@ -51,6 +51,7 @@ const ConfirmSMS = ({handleConfirm,phoneCode,telefono}) => {
 
   return (
     <>
+      <div className='flex flex-col gap-1'>
         <div className='flex justify-between items-center'>
           <label className='ml-2 text-[1.328125rem] onlyLine'>Código SMS</label>
           <label className={`text-[1rem] onlyLine mr-3 cursor-pointer ${texto.color}`} onClick={confirmarNumero}> {texto.texto}</label>
@@ -68,8 +69,8 @@ const ConfirmSMS = ({handleConfirm,phoneCode,telefono}) => {
                   />
             ))}
             <img className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : 'cursor-pointer'} h-10`} src={confirmarSMS} alt="Confirmar SMS" onClick={handleClick} disabled={deshabilitado} id='confirmSMS'/>
-
         </div>
+      </div>
     </>
   )
 }
