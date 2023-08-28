@@ -32,7 +32,8 @@ const Register = () => {
   const handleSubmit=async (event)=>{
     event.preventDefault()
     if (form.contraseña === form.confirmContraseña && form.contraseña!=='' && form.confirmContraseña!=='') {
-        const user = await useUserAuth(form.email,form.contraseña)
+        const {useUserAuthentication} = useUserAuth()
+        const user = await useUserAuthentication(form.email,form.contraseña)
         if (user) {
             const {createUser} = userUserStats()
             await createUser(form)

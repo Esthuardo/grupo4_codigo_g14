@@ -1,16 +1,19 @@
 import React, { useState } from 'react'
 import { Link, Outlet, useNavigate } from 'react-router-dom'
 
-import Searcher from '../components/Searcher'
+import TypeProducts from '../components/TypeProducts'
 
+import Searcher from '../components/Searcher'
 import UserNoLogin from '../assets/images/StaticImages/User_noLogin.svg'
 import UserLogin from '../assets/images/StaticImages/User_Login.svg'
+import shopCar from '../assets/images/StaticImages/carritoCompra.svg'
 
 const PrimaryLayout = () => {
   const navigate = useNavigate()
   const [user,setUser]=useState({
     showMenu: false,
-    image: UserNoLogin
+    image: UserNoLogin,
+    showProducts: false
   })
   const datosUsuario = JSON.parse(localStorage.getItem('datosUsuario'))
 
@@ -22,9 +25,9 @@ const PrimaryLayout = () => {
     }
   },[])
   
-  const handleShowMenu = ()=>{
-    const show=user.showMenu
-    setUser({...user,showMenu:!show})
+  const handleShowMenu = (TypeShow)=>{
+    const show=user[TypeShow]
+    setUser({...user,[TypeShow]:!show})
   }
   const handleRedirect = (page)=>{
     if (page==='logout') {
@@ -36,16 +39,23 @@ const PrimaryLayout = () => {
   return (
     <>
         <header className='flex justify-between bg-red-400 h-[7.875ren] items-center px-4'>
-            <div className='flex gap-3 items-center py-2'>
+            <section className='flex gap-3 items-center py-2'>
               <Link to="/"><img src="" alt="Logo" className='rounded-full bg-red-300 mr-4 h-[5rem] w-[5rem]' /></Link>
               <Searcher/>
-            </div>
-            <div>
-              {/*Aqui puede ir las categorias y asi se tenga acceso a estas */}
-            </div>
-            <div className='flex'>
+            </section>
+            <section>
+              <span className='text-3xl text-white font-bold cursor-pointer' onClick={()=>handleShowMenu('showProducts')}> | Nuestros productos | </span>
+              {user.showProducts && (
+                <TypeProducts/>
+              )}
+            </section>
+            <section className='flex gap-3'>
+              <div className='flex bg-yellow-400 items-center px-4 rounded-lg gap-4'>
+                <img src={shopCar} alt='carrito' />
+                <label className='text-4xl font-bold'>0.00</label>
+              </div>
               <div>
-                <img src={user.image} alt="Usuario" onClick={handleShowMenu} className='cursor-pointer' />
+                <img src={user.image} alt="Usuario" onClick={()=>handleShowMenu('showMenu')} className='cursor-pointer' />
                 <div className='bg-green-500 absolute top-[96px] right-0 w-[200px]'>
                   {user.showMenu && (
                     <ul className='cursor-pointer'>
@@ -65,11 +75,8 @@ const PrimaryLayout = () => {
                   )}
                 </div>
               </div>
-              <div className='flex bg-yellow-400'>
-                <img src="" alt="" />
-                <label htmlFor="">0.00</label>
-              </div>
-            </div>
+              
+            </section>
         </header>
         <main>
             <Outlet/>
