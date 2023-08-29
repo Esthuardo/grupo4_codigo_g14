@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { Link, Outlet, useNavigate } from 'react-router-dom'
 
 import TypeProducts from '../components/TypeProducts'
-
 import Searcher from '../components/Searcher'
+
 import UserNoLogin from '../assets/images/StaticImages/User_noLogin.svg'
 import UserLogin from '../assets/images/StaticImages/User_Login.svg'
 import shopCar from '../assets/images/StaticImages/carritoCompra.svg'
@@ -13,7 +13,6 @@ const PrimaryLayout = () => {
   const [user,setUser]=useState({
     showMenu: false,
     image: UserNoLogin,
-    showProducts: false
   })
   const datosUsuario = JSON.parse(localStorage.getItem('datosUsuario'))
 
@@ -25,9 +24,9 @@ const PrimaryLayout = () => {
     }
   },[])
   
-  const handleShowMenu = (TypeShow)=>{
-    const show=user[TypeShow]
-    setUser({...user,[TypeShow]:!show})
+  const handleShowMenu = ()=>{
+    const show= user.showMenu
+    setUser({...user,showMenu:!show})
   }
   const handleRedirect = (page)=>{
     if (page==='logout') {
@@ -44,7 +43,7 @@ const PrimaryLayout = () => {
               <Searcher/>
             </section>
             <section>
-              <span className='text-3xl text-white font-bold cursor-pointer' onClick={()=>handleShowMenu('showProducts')}> | Nuestros productos | </span>
+              <span className='text-3xl text-white font-bold cursor-pointer' onClick={()=>navigate('/productos')}> | Nuestros productos | </span>
               {user.showProducts && (
                 <TypeProducts/>
               )}
@@ -55,10 +54,10 @@ const PrimaryLayout = () => {
                 <label className='text-4xl font-bold'>0.00</label>
               </div>
               <div>
-                <img src={user.image} alt="Usuario" onClick={()=>handleShowMenu('showMenu')} className='cursor-pointer' />
-                <div className='bg-green-500 absolute top-[96px] right-0 w-[200px]'>
+                <img src={user.image} alt="Usuario" onClick={handleShowMenu} className='cursor-pointer' />
+                <div className='bg-green-500 absolute top-[96px] right-0 w-[200px] rounded-b-lg px-3'>
                   {user.showMenu && (
-                    <ul className='cursor-pointer'>
+                    <ul className='cursor-pointer font-semibold text-[1.2rem] p-2'>
                       {datosUsuario ? (
                         <>
                         <li onClick={()=>handleRedirect('compras')}>Mis compras</li>
@@ -82,7 +81,7 @@ const PrimaryLayout = () => {
             <Outlet/>
         </main>
         <footer>
-
+          
         </footer>
     </>
   )
