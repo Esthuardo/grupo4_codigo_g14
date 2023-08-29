@@ -65,7 +65,7 @@ const ConfirmSMS = ({handleConfirm,phoneCode,telefono}) => {
                   type='text' 
                   required 
                   onChange={event=>handleInput(event,index)}
-                  ref={elemento => referencia.current[index]=elemento}
+                  ref={elemento => referencia.current[index] = elemento}
                   />
             ))}
             <img className={`${deshabilitado ? 'cursor-not-allowed pointer-events-none opacity-25' : 'cursor-pointer'} h-10`} src={confirmarSMS} alt="Confirmar SMS" onClick={handleClick} disabled={deshabilitado} id='confirmSMS'/>

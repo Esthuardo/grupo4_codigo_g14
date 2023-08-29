@@ -6,10 +6,10 @@ import Home from "../pages/Home"
 import DataUser from "../pages/DataUser"
 import Purchases from "../pages/Purchases"
 import Products from "../pages/Products"
+import Product from "../pages/Product"
 
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import PrivateRoutes from "./PrivateRoutes"
-import useUserAuth from "../hooks/useUserAuth"
 
 const Router = () => {
   return (
@@ -21,6 +21,7 @@ const Router = () => {
           <Route path="/" element={<PrimaryLayout />}>
             <Route index element={<Home />} />
             <Route path="/productos" element={<Products/>} />
+            <Route path="/producto/:id" element={<Product/>} />
             <Route element={<PrivateRoutes/>}>
               <Route path="/compras" element={<Purchases/>} />
               <Route path="/datos" element={<DataUser/>} />
