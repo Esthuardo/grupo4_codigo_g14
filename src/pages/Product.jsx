@@ -39,10 +39,10 @@ const Product = () => {
       navigate('/login')
     }
   }
-
+  
   const agregarCarrito = async() =>{
     if (cantidad !== 0) {
-      const total = totalValor + (cantidad * producto["P2 DOC"])
+      const total = totalValor + (cantidad * producto.Precio)
       setTotalValor(total)
       await agregarProductoCarrito(total)
       setCantidad(0)
@@ -63,16 +63,16 @@ const Product = () => {
     <>
     <main className="flex justify-center items-center gap-10 p-16">
       <div className="p-4 w-[40.625rem] h-[34.375rem] bg-red-500 justify-center flex">
-        <img src={producto["Image of the product"]} alt="Producto" />
+        <img src={producto.Image} alt="Producto" />
       </div>
       <div className="flex flex-col w-[25rem] gap-6">
-        <h1 className="text-center text-3xl font-bold">{producto.ARTICULO}</h1>
+        <h1 className="text-center text-3xl font-bold">{producto.Articulo}</h1>
         <h2 className="font-semibold">Descripción: 
           <p className="font-normal pl-4">{producto.Descripcion}</p>
         </h2>
         <div className="flex justify-between px-3 text-2xl">
           <div>
-            <p>Precio: S/.{producto["P2 DOC"]} </p>
+            <p>Precio: S/.{producto.Precio} </p>
           </div>
           <div>
             <p>Stock: {producto.Stock} unidades</p>
