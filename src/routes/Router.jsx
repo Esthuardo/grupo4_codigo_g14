@@ -1,4 +1,5 @@
 import PrimaryLayout from "../layouts/PrimaryLayout"
+import { UserProvider } from "../context/UserContext"
 
 import Register from "../pages/Register"
 import Login from "../pages/Login"
@@ -15,6 +16,7 @@ const Router = () => {
   return (
     <>
       <BrowserRouter>
+        <UserProvider>
         <Routes>
           <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Register/>} />
@@ -28,6 +30,7 @@ const Router = () => {
             </Route>
           </Route>
         </Routes>
+        </UserProvider>
       </BrowserRouter>
     </>
   )

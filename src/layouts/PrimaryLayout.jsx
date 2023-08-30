@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { Link, Outlet, useNavigate } from 'react-router-dom'
+import useUserAuth from '../hooks/useUserAuth'
+import { UserContext } from '../context/UserContext'
 
 import TypeProducts from '../components/TypeProducts'
 import Searcher from '../components/Searcher'
@@ -10,14 +12,15 @@ import shopCar from '../assets/images/StaticImages/carritoCompra.svg'
 
 const PrimaryLayout = () => {
   const navigate = useNavigate()
+  const {totalValor} = useContext(UserContext)
   const [user,setUser]=useState({
     showMenu: false,
     image: UserNoLogin,
   })
-  const datosUsuario = JSON.parse(localStorage.getItem('datosUsuario'))
+  const {isAuth} = useUserAuth()
 
   useState(()=>{
-    if (datosUsuario) {
+    if (isAuth) {
       setUser({...user,image: UserLogin})
     }else{
       setUser({...user,image: UserNoLogin})
@@ -51,7 +54,7 @@ const PrimaryLayout = () => {
             <section className='flex gap-3'>
               <div className='flex bg-yellow-400 items-center px-4 rounded-lg gap-4'>
                 <img src={shopCar} alt='carrito' />
-                <label className='text-4xl font-bold'>0.00</label>
+                <label className='text-4xl font-bold'>{totalValor.toFixed(2)}</label>
               </div>
               <div>
                 <img src={user.image} alt="Usuario" onClick={handleShowMenu} className='cursor-pointer' />

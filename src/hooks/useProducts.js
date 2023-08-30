@@ -1,4 +1,4 @@
-import { query, where, collection, getDocs } from "firebase/firestore";
+import { query, where, collection, getDocs,doc,getDoc } from "firebase/firestore";
 import { firestore } from "../services/firebase";
 
 export const useProducts = () => {
@@ -18,7 +18,14 @@ export const useProducts = () => {
     }
     return productos
   }
+  const datosProductos = async (id) =>{
+    const docReference = doc(firestore,'productos', id)
+    const datos = await getDoc(docReference)
+    const data = datos.data()
+    return data
+  }
   return {
-    SearchProducts
+    SearchProducts,
+    datosProductos
   }
 }
