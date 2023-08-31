@@ -3,12 +3,16 @@ import { Link, Outlet, useNavigate } from 'react-router-dom'
 import useUserAuth from '../hooks/useUserAuth'
 import { UserContext } from '../context/UserContext'
 
-import TypeProducts from '../components/TypeProducts'
+
 import Searcher from '../components/Searcher'
 
 import UserNoLogin from '../assets/images/StaticImages/User_noLogin.svg'
 import UserLogin from '../assets/images/StaticImages/User_Login.svg'
 import shopCar from '../assets/images/StaticImages/carritoCompra.svg'
+import Facebook from '../assets/images/Facebook.svg'
+import Whatsapp from '../assets/images/Whatsapp.svg'
+import Instagram from '../assets/images/Instagram.svg'
+import TikTok from '../assets/images/TikTok.svg'
 
 const PrimaryLayout = () => {
   const navigate = useNavigate()
@@ -47,9 +51,6 @@ const PrimaryLayout = () => {
             </section>
             <section>
               <span className='text-3xl text-white font-bold cursor-pointer' onClick={()=>navigate('/productos')}> | Nuestros productos | </span>
-              {user.showProducts && (
-                <TypeProducts/>
-              )}
             </section>
             <section className='flex gap-3'>
               <div className='flex bg-yellow-400 items-center px-4 rounded-lg gap-4'>
@@ -83,8 +84,44 @@ const PrimaryLayout = () => {
         <main>
             <Outlet/>
         </main>
-        <footer>
-          
+        <footer className='bg-black grid grid-cols-3 px-10 py-4 text-white'>
+          <section className='flex flex-col gap-3 items-center justify-center '>
+            <h2 className='text-3xl text-center font-semibold underline '>Hecho por el Grupo 4:</h2>
+            <ul className='text-1xl list-disc ml-2'>
+              <li>Raul Villavicencio</li>
+              <li>Quispe Felix Esthuardo</li>
+              <li>Marcel Artica</li>
+              <li>Miguel Gutierrez</li>
+            </ul>
+          </section>
+          <section className=' flex flex-col col-span-2 items-center'>
+            <div className='grid grid-cols-2 gap-20'>
+              <div className='flex flex-col gap-5'>
+                <div className='flex gap-5 items-center'>
+                  <img src={Facebook} alt="Facebook" />
+                  <h3 className='text-2xl'>@AccesoriosTec</h3>
+                </div>
+                <div className='flex gap-5 items-center'>
+                  <img src={Whatsapp} alt="Whatsapp" />
+                  <h3 className='text-2xl'>+51 111111111</h3>
+                </div>
+              </div>
+              <div className='flex flex-col gap-5'>
+                <div className='flex gap-5 items-center'>
+                  <img src={Instagram} alt="Instagram" />
+                  <h3 className='text-2xl'>@AccesoriosTec</h3>
+                </div>
+                <div className='flex gap-5 items-center'>
+                  <img src={TikTok} alt="TikTok" />
+                  <h3 className='text-2xl'>@AccesoriosTec</h3>
+                </div>
+              </div>
+            </div>
+            <div className='flex flex-col mt-5'>
+              <h2>Puedes escribirnos al: </h2>
+              <h3 className='ml-4'>accesoriosTec@proyecto.com</h3>
+            </div>
+          </section>
         </footer>
     </>
   )

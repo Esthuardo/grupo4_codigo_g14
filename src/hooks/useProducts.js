@@ -54,7 +54,7 @@ export const useProducts = () => {
     resultadoBusqueda.forEach(resultado =>{
       resultados.push({id:resultado.id, ...resultado.data()})
     })
-    return showCategoria
+    return resultados
   }
   return {
     SearchProducts,
