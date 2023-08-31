@@ -61,7 +61,7 @@ const PrimaryLayout = () => {
                 <div className='bg-green-500 absolute top-[96px] right-0 w-[200px] rounded-b-lg px-3'>
                   {user.showMenu && (
                     <ul className='cursor-pointer font-semibold text-[1.2rem] p-2'>
-                      {datosUsuario ? (
+                      {isAuth ? (
                         <>
                         <li onClick={()=>handleRedirect('compras')}>Mis compras</li>
                         <li onClick={()=>handleRedirect('datos')}>Mis datos</li>

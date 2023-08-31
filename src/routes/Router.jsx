@@ -1,5 +1,5 @@
 import PrimaryLayout from "../layouts/PrimaryLayout"
-import { UserProvider } from "../context/UserContext"
+import { UserProvider, UserProvideProducts } from "../context/UserContext"
 
 import Register from "../pages/Register"
 import Login from "../pages/Login"
@@ -17,19 +17,21 @@ const Router = () => {
     <>
       <BrowserRouter>
         <UserProvider>
-        <Routes>
-          <Route path="/login" element={<Login/>} />
-          <Route path="/register" element={<Register/>} />
-          <Route path="/" element={<PrimaryLayout />}>
-            <Route index element={<Home />} />
-            <Route path="/productos" element={<Products/>} />
-            <Route path="/producto/:id" element={<Product/>} />
-            <Route element={<PrivateRoutes/>}>
-              <Route path="/compras" element={<Purchases/>} />
-              <Route path="/datos" element={<DataUser/>} />
-            </Route>
-          </Route>
-        </Routes>
+          <UserProvideProducts>
+            <Routes>
+              <Route path="/login" element={<Login/>} />
+              <Route path="/register" element={<Register/>} />
+              <Route path="/" element={<PrimaryLayout />}>
+                <Route index element={<Home />} />
+                <Route path="/productos" element={<Products/>} />
+                <Route path="/producto/:id" element={<Product/>} />
+                <Route element={<PrivateRoutes/>}>
+                  <Route path="/compras" element={<Purchases/>} />
+                  <Route path="/datos" element={<DataUser/>} />
+                </Route>
+              </Route>
+            </Routes>
+          </UserProvideProducts>
         </UserProvider>
       </BrowserRouter>
     </>

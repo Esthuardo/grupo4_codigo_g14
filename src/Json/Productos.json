@@ -8,7 +8,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/jd07RnvT/image.png",
-    "Precio": 7.08
+    "Precio": 7.08,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 116,
@@ -19,7 +21,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/25hpRJ5r/image.png",
-    "Precio": 14.16
+    "Precio": 14.16,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 114,
@@ -30,7 +34,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/RFZTQ6yy/image.png",
-    "Precio": 7.08
+    "Precio": 7.08,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 45,
@@ -41,7 +47,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/RZxQpb2c/image.png",
-    "Precio": 5.25
+    "Precio": 5.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 729,
@@ -52,7 +60,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Y9PQ6X1L/image.png",
-    "Precio": 0.75
+    "Precio": 0.75,
+    "Novedades": "",
+    "BestSeller": "hotSale"
   },
   {
     "Orden": 47,
@@ -63,7 +73,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/2SY9L6jR/image.png",
-    "Precio": 10
+    "Precio": 10,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 58,
@@ -74,7 +86,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/rpmJ5Rvb/image.png",
-    "Precio": 13.125
+    "Precio": 13.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 765,
@@ -85,7 +99,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/sxF4F6vd/image.png",
-    "Precio": 19.6875
+    "Precio": 19.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 830,
@@ -96,7 +112,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Y2gxNHsp/image.png",
-    "Precio": 29.5
+    "Precio": 29.5,
+    "Novedades": "nuevo",
+    "BestSeller": ""
   },
   {
     "Orden": 48,
@@ -107,7 +125,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3J59zRr5/imagen-2023-08-25-163009424.png",
-    "Precio": 15
+    "Precio": 15,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 46,
@@ -118,7 +138,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/fLVBQS0Z/imagen-2023-08-25-162958346.png",
-    "Precio": 15.625
+    "Precio": 15.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 772,
@@ -129,7 +151,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/VNLK4VfJ/imagen-2023-08-25-162946527.png",
-    "Precio": 14.75
+    "Precio": 14.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 147,
@@ -140,7 +164,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/MKV3GB3p/imagen-2023-08-25-162924614.png",
-    "Precio": 14.16
+    "Precio": 14.16,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 821,
@@ -151,7 +177,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/PNsDcP16/imagen-2023-08-25-162914992.png",
-    "Precio": 7.08
+    "Precio": 7.08,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 613,
@@ -162,7 +190,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/RFhwnrMT/imagen-2023-08-25-162903529.png",
-    "Precio": 24.375
+    "Precio": 24.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 186,
@@ -173,7 +203,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8C1RNJ99/imagen-2023-08-25-162852208.png",
-    "Precio": 30
+    "Precio": 30,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 122,
@@ -184,7 +216,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/6q7VgkgQ/imagen-2023-08-25-162841717.png",
-    "Precio": 23.6
+    "Precio": 23.6,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 52,
@@ -195,7 +229,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/mDgyNzSC/imagen-2023-08-25-162834510.png",
-    "Precio": 2.5
+    "Precio": 2.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 182,
@@ -206,7 +242,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/KYFNjsk9/imagen-2023-08-25-162825032.png",
-    "Precio": 3.125
+    "Precio": 3.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 44,
@@ -217,7 +255,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8knt4H95/imagen-2023-08-25-162808463.png",
-    "Precio": 2.5
+    "Precio": 2.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 60,
@@ -228,7 +268,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/sXjw603B/imagen-2023-08-25-162757517.png",
-    "Precio": 2.5
+    "Precio": 2.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 196,
@@ -239,7 +281,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/rw4nKrhp/imagen-2023-08-25-162743760.png",
-    "Precio": 3.5
+    "Precio": 3.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 197,
@@ -250,7 +294,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/hPf3RwTT/imagen-2023-08-25-162735627.png",
-    "Precio": 2.875
+    "Precio": 2.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 73,
@@ -261,7 +307,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/1zxdHHg6/imagen-2023-08-25-162727876.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 74,
@@ -272,7 +320,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Qt3RXbhs/imagen-2023-08-25-162718808.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "nuevo",
+    "BestSeller": ""
   },
   {
     "Orden": 75,
@@ -283,7 +333,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/CKD3Ttym/imagen-2023-08-25-162708046.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": "hotSale"
   },
   {
     "Orden": 181,
@@ -294,7 +346,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/g2w94jg9/imagen-2023-08-25-162656792.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 183,
@@ -305,7 +359,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/J4zCDPJz/imagen-2023-08-25-162649922.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 180,
@@ -316,7 +372,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/NFphCHht/imagen-2023-08-25-162640242.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 135,
@@ -327,7 +385,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/qRHdNrcP/imagen-2023-08-25-162632010.png",
-    "Precio": 5
+    "Precio": 5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 758,
@@ -338,7 +398,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/DwDhKLSy/imagen-2023-08-25-162621043.png",
-    "Precio": 13.57
+    "Precio": 13.57,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 139,
@@ -349,7 +411,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Kv0FJdFT/imagen-2023-08-25-162614153.png",
-    "Precio": 4.72
+    "Precio": 4.72,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 835,
@@ -360,7 +424,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/6q0wsPvD/imagen-2023-08-25-162606823.png",
-    "Precio": 10.62
+    "Precio": 10.62,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 59,
@@ -371,7 +437,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/JhfRjZ8d/imagen-2023-08-25-162551241.png",
-    "Precio": 18.75
+    "Precio": 18.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 106,
@@ -382,7 +450,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/jqzSQgL6/imagen-2023-08-25-162537987.png",
-    "Precio": 16.25
+    "Precio": 16.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 105,
@@ -393,7 +463,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/QMHMQjTV/imagen-2023-08-25-162515130.png",
-    "Precio": 16.25
+    "Precio": 16.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 104,
@@ -404,7 +476,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/KvD4Fqbc/imagen-2023-08-25-162506950.png",
-    "Precio": 30
+    "Precio": 30,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 34,
@@ -415,7 +489,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/9XTrgXN7/imagen-2023-08-25-162459051.png",
-    "Precio": 11.125
+    "Precio": 11.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 753,
@@ -426,7 +502,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ZqMC2WSr/imagen-2023-08-25-162451778.png",
-    "Precio": 7.5
+    "Precio": 7.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 784,
@@ -437,7 +515,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/pdYFSWdC/imagen-2023-08-25-162428316.png",
-    "Precio": 9.44
+    "Precio": 9.44,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 584,
@@ -448,7 +528,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/c4rfJGD1/imagen-2023-08-25-162417963.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 35,
@@ -459,7 +541,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/xCnKjkZB/imagen-2023-08-25-162349006.png",
-    "Precio": 10.625
+    "Precio": 10.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 36,
@@ -470,7 +554,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3wMX6fF8/imagen-2023-08-25-162339535.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 633,
@@ -481,7 +567,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3r9ZRBY1/imagen-2023-08-25-162327960.png",
-    "Precio": 53.1
+    "Precio": 53.1,
+    "Novedades": "nuevo",
+    "BestSeller": ""
   },
   {
     "Orden": 107,
@@ -492,7 +580,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/xTTtyZtB/imagen-2023-08-25-162316832.png",
-    "Precio": 12.5
+    "Precio": 12.5,
+    "Novedades": "",
+    "BestSeller": "hotSale"
   },
   {
     "Orden": 112,
@@ -503,7 +593,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/90c1kgVR/imagen-2023-08-25-162303584.png",
-    "Precio": 23.75
+    "Precio": 23.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 103,
@@ -514,7 +606,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/RF5g7VDT/imagen-2023-08-25-162255311.png",
-    "Precio": 22.5
+    "Precio": 22.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 113,
@@ -525,7 +619,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/vm6Px63B/imagen-2023-08-25-162246312.png",
-    "Precio": 26.25
+    "Precio": 26.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 111,
@@ -536,7 +632,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/QdCYsz7c/imagen-2023-08-25-162238503.png",
-    "Precio": 21.875
+    "Precio": 21.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 109,
@@ -547,7 +645,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/VLDZxwJY/imagen-2023-08-25-162228802.png",
-    "Precio": 17.5
+    "Precio": 17.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 118,
@@ -558,7 +658,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/0jCX2RZ0/imagen-2023-08-25-162218390.png",
-    "Precio": 27.5
+    "Precio": 27.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 81,
@@ -569,7 +671,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/PqBRSMPY/imagen-2023-08-25-162208467.png",
-    "Precio": 18.75
+    "Precio": 18.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 84,
@@ -580,7 +684,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/y88txdMg/imagen-2023-08-25-162158111.png",
-    "Precio": 20
+    "Precio": 20,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 83,
@@ -591,7 +697,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ZKZ1kjjL/imagen-2023-08-25-162147358.png",
-    "Precio": 11.25
+    "Precio": 11.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 82,
@@ -602,7 +710,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/dV9QPL8h/imagen-2023-08-25-162138708.png",
-    "Precio": 20
+    "Precio": 20,
+    "Novedades": "nuevo",
+    "BestSeller": ""
   },
   {
     "Orden": 810,
@@ -613,7 +723,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/fb5G5dYv/imagen-2023-08-25-162129772.png",
-    "Precio": 6.25
+    "Precio": 6.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 639,
@@ -624,7 +736,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/525dYT0T/imagen-2023-08-25-162119877.png",
-    "Precio": 96.76
+    "Precio": 96.76,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 640,
@@ -635,7 +749,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/FHXXKN90/imagen-2023-08-25-162111249.png",
-    "Precio": 38.94
+    "Precio": 38.94,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 641,
@@ -646,7 +762,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/BQKGsXGq/imagen-2023-08-25-162102953.png",
-    "Precio": 47.2
+    "Precio": 47.2,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 642,
@@ -657,7 +775,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3r6HP2VS/imagen-2023-08-25-162053701.png",
-    "Precio": 48.38
+    "Precio": 48.38,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 643,
@@ -668,7 +788,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/GtBn4p8x/imagen-2023-08-25-162045083.png",
-    "Precio": 17.7
+    "Precio": 17.7,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 164,
@@ -679,7 +801,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Bvs3mskJ/imagen-2023-08-25-162033943.png",
-    "Precio": 2.8125
+    "Precio": 2.8125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 777,
@@ -690,7 +814,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/zGT5w3dd/imagen-2023-08-25-162023093.png",
-    "Precio": 3.375
+    "Precio": 3.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 5,
@@ -701,7 +827,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/PxQPS22R/imagen-2023-08-25-161938782.png",
-    "Precio": 5.25
+    "Precio": 5.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 562,
@@ -712,7 +840,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/qvWhqtNj/imagen-2023-08-25-161928853.png",
-    "Precio": 3.75
+    "Precio": 3.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 62,
@@ -723,7 +853,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/kGwRgfSb/imagen-2023-08-25-161907149.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 117,
@@ -734,7 +866,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/QdG07MKx/imagen-2023-08-25-161759081.png",
-    "Precio": 9.44
+    "Precio": 9.44,
+    "Novedades": "",
+    "BestSeller": "hotSale"
   },
   {
     "Orden": 108,
@@ -745,7 +879,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/MHL3NbGy/imagen-2023-08-25-161702007.png",
-    "Precio": 3.5
+    "Precio": 3.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 574,
@@ -756,7 +892,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/4NSTRV02/imagen-2023-08-25-161643437.png",
-    "Precio": 3.75
+    "Precio": 3.75,
+    "Novedades": "nuevo",
+    "BestSeller": ""
   },
   {
     "Orden": 234,
@@ -767,7 +905,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/j5bbkT1s/imagen-2023-08-25-161635472.png",
-    "Precio": 2.8
+    "Precio": 2.8,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 646,
@@ -778,7 +918,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/K8CFBBr3/imagen-2023-08-25-161625239.png",
-    "Precio": 3.5
+    "Precio": 3.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 504,
@@ -789,7 +931,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/hPyK4HXr/imagen-2023-08-25-161615343.png",
-    "Precio": 4.5
+    "Precio": 4.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 509,
@@ -800,7 +944,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/xCv008mJ/imagen-2023-08-25-161547850.png",
-    "Precio": 3.75
+    "Precio": 3.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 507,
@@ -811,7 +957,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/QMW8y0xq/imagen-2023-08-25-161534586.png",
-    "Precio": 2.5
+    "Precio": 2.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 508,
@@ -822,7 +970,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/x8PTP8TD/imagen-2023-08-25-161516202.png",
-    "Precio": 2.625
+    "Precio": 2.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 510,
@@ -833,7 +983,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8P8hK0pZ/imagen-2023-08-25-161503979.png",
-    "Precio": 3.75
+    "Precio": 3.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 7,
@@ -844,7 +996,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/k5MNNRJ9/imagen-2023-08-25-161433290.png",
-    "Precio": 4.6875
+    "Precio": 4.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 647,
@@ -855,7 +1009,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/4ddKyzJ7/imagen-2023-08-25-161415935.png",
-    "Precio": 7.67
+    "Precio": 7.67,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 511,
@@ -866,7 +1022,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/xCTmmwPd/imagen-2023-08-25-161406246.png",
-    "Precio": 6.5625
+    "Precio": 6.5625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 514,
@@ -877,7 +1035,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/T3gnvqwT/imagen-2023-08-25-161356316.png",
-    "Precio": 30
+    "Precio": 30,
+    "Novedades": "nuevo",
+    "BestSeller": ""
   },
   {
     "Orden": 731,
@@ -888,7 +1048,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/q7HXNDYt/imagen-2023-08-25-161332841.png",
-    "Precio": 41.25
+    "Precio": 41.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 513,
@@ -899,7 +1061,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/q7HXNDYt/imagen-2023-08-25-161332841.png",
-    "Precio": 10.62
+    "Precio": 10.62,
+    "Novedades": "",
+    "BestSeller": "hotSale"
   },
   {
     "Orden": 667,
@@ -910,7 +1074,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/9fyb1HTt/imagen-2023-08-25-161322287.png",
-    "Precio": 0
+    "Precio": 0,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 650,
@@ -921,7 +1087,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/jSLkH1ZZ/imagen-2023-08-25-161313853.png",
-    "Precio": 112.5
+    "Precio": 112.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 512,
@@ -932,7 +1100,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8PT26w20/imagen-2023-08-25-161302044.png",
-    "Precio": 10.3125
+    "Precio": 10.3125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 11,
@@ -943,7 +1113,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Zq1kvmm8/imagen-2023-08-25-161250561.png",
-    "Precio": 5
+    "Precio": 5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 3,
@@ -954,7 +1126,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/0yk9995r/imagen-2023-08-25-161226817.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 261,
@@ -965,7 +1139,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ryZmn0qg/imagen-2023-08-25-160854101.png",
-    "Precio": 2.58333333333333
+    "Precio": 2.583333333,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 91,
@@ -976,7 +1152,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/mkngtqmK/imagen-2023-08-25-160845370.png",
-    "Precio": 3.75
+    "Precio": 3.75,
+    "Novedades": "",
+    "BestSeller": "hotSale"
   },
   {
     "Orden": 10,
@@ -987,7 +1165,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/KjjYcFDn/imagen-2023-08-25-160835646.png",
-    "Precio": 5
+    "Precio": 5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 20,
@@ -998,7 +1178,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/bJ3Jjdky/imagen-2023-08-25-160824436.png",
-    "Precio": 3.625
+    "Precio": 3.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 18,
@@ -1009,7 +1191,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3RKR62yf/imagen-2023-08-25-160814326.png",
-    "Precio": 4
+    "Precio": 4,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 12,
@@ -1020,7 +1204,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/vm7T30m6/imagen-2023-08-25-160806418.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 506,
@@ -1031,7 +1217,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/0N1rYT9s/imagen-2023-08-25-160755742.png",
-    "Precio": 3.375
+    "Precio": 3.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 505,
@@ -1042,7 +1230,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/sxTZKwwJ/imagen-2023-08-25-160744476.png",
-    "Precio": 2.5
+    "Precio": 2.5,
+    "Novedades": "nuevo",
+    "BestSeller": ""
   },
   {
     "Orden": 167,
@@ -1053,7 +1243,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ZKm3mvGm/imagen-2023-08-25-160531954.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 127,
@@ -1064,7 +1256,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/rs1rWqt7/imagen-2023-08-25-160513873.png",
-    "Precio": 4.75
+    "Precio": 4.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 129,
@@ -1075,7 +1269,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/kG3SB2Dx/imagen-2023-08-25-160505927.png",
-    "Precio": 5
+    "Precio": 5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 274,
@@ -1086,7 +1282,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3wt94FH2/imagen-2023-08-25-160428945.png",
-    "Precio": 2.8
+    "Precio": 2.8,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 130,
@@ -1097,7 +1295,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/t4tnmv1H/imagen-2023-08-25-160418643.png",
-    "Precio": 5.625
+    "Precio": 5.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 61,
@@ -1108,7 +1308,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/zXHnpkSJ/imagen-2023-08-25-160410055.png",
-    "Precio": 5
+    "Precio": 5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 162,
@@ -1119,7 +1321,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/h4yr2jk0/imagen-2023-08-25-160402557.png",
-    "Precio": 5.625
+    "Precio": 5.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 161,
@@ -1130,7 +1334,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/2yK7ycQt/imagen-2023-08-25-160352053.png",
-    "Precio": 5
+    "Precio": 5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 39,
@@ -1141,7 +1347,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/sxXJVdhS/imagen-2023-08-25-160339437.png",
-    "Precio": 3.625
+    "Precio": 3.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 125,
@@ -1152,7 +1360,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/V64RQLdm/imagen-2023-08-25-160330879.png",
-    "Precio": 8.4375
+    "Precio": 8.4375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 128,
@@ -1163,7 +1373,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/PqsK1Rgs/imagen-2023-08-25-160322825.png",
-    "Precio": 5.625
+    "Precio": 5.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 23,
@@ -1174,7 +1386,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/XYyQGbDk/imagen-2023-08-25-160314039.png",
-    "Precio": 1.875
+    "Precio": 1.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 519,
@@ -1185,7 +1399,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8ktyxw6M/imagen-2023-08-25-160302271.png",
-    "Precio": 3
+    "Precio": 3,
+    "Novedades": "nuevo",
+    "BestSeller": ""
   },
   {
     "Orden": 37,
@@ -1196,7 +1412,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/J04pGH9s/imagen-2023-08-25-160250053.png",
-    "Precio": 3.125
+    "Precio": 3.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 53,
@@ -1207,7 +1425,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/sXJnj40F/imagen-2023-08-25-160239971.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 520,
@@ -1218,7 +1438,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/GmZgq2sf/imagen-2023-08-25-160227756.png",
-    "Precio": 2.4375
+    "Precio": 2.4375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 13,
@@ -1229,7 +1451,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/vH2NxX8b/imagen-2023-08-25-160218839.png",
-    "Precio": 7.125
+    "Precio": 7.125,
+    "Novedades": "",
+    "BestSeller": "hotSale"
   },
   {
     "Orden": 126,
@@ -1240,7 +1464,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/7YZRLjkK/imagen-2023-08-25-160210258.png",
-    "Precio": 7.5
+    "Precio": 7.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 503,
@@ -1251,7 +1477,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/sfc8sstB/imagen-2023-08-25-160202113.png",
-    "Precio": 3.5625
+    "Precio": 3.5625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 545,
@@ -1262,7 +1490,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/nr0wkGvK/imagen-2023-08-25-160154696.png",
-    "Precio": 4.6875
+    "Precio": 4.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 292,
@@ -1273,7 +1503,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/k5bzm8m9/imagen-2023-08-25-160145577.png",
-    "Precio": 8.4375
+    "Precio": 8.4375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 94,
@@ -1284,7 +1516,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/d3YKX6kz/imagen-2023-08-25-160119016.png",
-    "Precio": 10
+    "Precio": 10,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 93,
@@ -1295,7 +1529,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/N0Zt8BgG/imagen-2023-08-25-160108982.png",
-    "Precio": 10.625
+    "Precio": 10.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 29,
@@ -1306,7 +1542,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/JhsmBGCd/imagen-2023-08-25-160059389.png",
-    "Precio": 11.25
+    "Precio": 11.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 28,
@@ -1317,7 +1555,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/P53Tx19w/imagen-2023-08-25-160047094.png",
-    "Precio": 10.625
+    "Precio": 10.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 686,
@@ -1328,7 +1568,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/5Nmfhhmp/imagen-2023-08-25-160038930.png",
-    "Precio": 8.26
+    "Precio": 8.26,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 680,
@@ -1339,7 +1581,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/V6bY257b/imagen-2023-08-25-160030604.png",
-    "Precio": 11.8
+    "Precio": 11.8,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 681,
@@ -1350,7 +1594,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/YSPrXQxH/imagen-2023-08-25-160021255.png",
-    "Precio": 15.34
+    "Precio": 15.34,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 828,
@@ -1361,7 +1607,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/bvrYHmkg/imagen-2023-08-25-160010053.png",
-    "Precio": 14.625
+    "Precio": 14.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 4,
@@ -1372,7 +1620,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/9XRRjQ4b/imagen-2023-08-25-155751823.png",
-    "Precio": 14.0625
+    "Precio": 14.0625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 324,
@@ -1383,7 +1633,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/x1S9h0HX/imagen-2023-08-25-155741847.png",
-    "Precio": 8.8125
+    "Precio": 8.8125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 815,
@@ -1394,7 +1646,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/bYWy00wH/imagen-2023-08-25-155733204.png",
-    "Precio": 9.44
+    "Precio": 9.44,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 816,
@@ -1405,7 +1659,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/qqhkVqj3/imagen-2023-08-25-155725067.png",
-    "Precio": 8.26
+    "Precio": 8.26,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 318,
@@ -1416,7 +1672,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/CK7MbWRz/imagen-2023-08-25-155716448.png",
-    "Precio": 22.42
+    "Precio": 22.42,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 607,
@@ -1427,7 +1685,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/wjhjjtH5/imagen-2023-08-25-155707991.png",
-    "Precio": 70.8
+    "Precio": 70.8,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 608,
@@ -1438,7 +1698,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/BnWv35WQ/imagen-2023-08-25-155656940.png",
-    "Precio": 76.7
+    "Precio": 76.7,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 609,
@@ -1449,7 +1711,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/0QtQ1LvL/imagen-2023-08-25-155649409.png",
-    "Precio": 76.7
+    "Precio": 76.7,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 136,
@@ -1460,7 +1724,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/vmsDrrXS/imagen-2023-08-25-155637633.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": "hotSale"
   },
   {
     "Orden": 137,
@@ -1471,7 +1737,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/GmYHT7Py/imagen-2023-08-25-155626923.png",
-    "Precio": 38.4375
+    "Precio": 38.4375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 697,
@@ -1482,7 +1750,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/RVW34VNG/imagen-2023-08-25-155617500.png",
-    "Precio": 24.78
+    "Precio": 24.78,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 695,
@@ -1493,7 +1763,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ZY79GyKC/imagen-2023-08-25-155608670.png",
-    "Precio": 23.6
+    "Precio": 23.6,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 696,
@@ -1504,7 +1776,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/d31h7Jns/imagen-2023-08-25-155559809.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 134,
@@ -1515,7 +1789,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8ktWT0wk/imagen-2023-08-25-155548499.png",
-    "Precio": 37.5
+    "Precio": 37.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 645,
@@ -1526,7 +1802,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/50mzY7V3/imagen-2023-08-25-155540262.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 698,
@@ -1537,7 +1815,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Wpnmh3pv/imagen-2023-08-25-155531501.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 644,
@@ -1548,7 +1828,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/pL7JR6W5/imagen-2023-08-25-155521950.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 133,
@@ -1559,7 +1841,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/X7fRZ9Gv/imagen-2023-08-25-155452851.png",
-    "Precio": 37.5
+    "Precio": 37.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 99,
@@ -1570,7 +1854,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/c4Gq4FJj/imagen-2023-08-25-155444861.png",
-    "Precio": 26.25
+    "Precio": 26.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 322,
@@ -1581,7 +1867,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/g0tFzdwq/imagen-2023-08-25-155435903.png",
-    "Precio": 23.6
+    "Precio": 23.6,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 321,
@@ -1592,7 +1880,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/FHmQGT5c/imagen-2023-08-25-155428590.png",
-    "Precio": 22.42
+    "Precio": 22.42,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 160,
@@ -1603,7 +1893,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/y6gBNJyJ/imagen-2023-08-25-155414461.png",
-    "Precio": 43.75
+    "Precio": 43.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 131,
@@ -1614,7 +1906,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/rzXfVZC9/imagen-2023-08-25-155405211.png",
-    "Precio": 33.375
+    "Precio": 33.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 702,
@@ -1625,7 +1919,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3RNSnvx2/imagen-2023-08-25-155357671.png",
-    "Precio": 22.42
+    "Precio": 22.42,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 138,
@@ -1636,7 +1932,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/QdZzhCfr/imagen-2023-08-25-155344076.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 822,
@@ -1647,7 +1945,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/W31KCyXF/imagen-2023-08-25-155330340.png",
-    "Precio": 63.72
+    "Precio": 63.72,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 14,
@@ -1658,7 +1958,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Pqh0zJDM/imagen-2023-08-25-155319217.png",
-    "Precio": 23.75
+    "Precio": 23.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 704,
@@ -1669,7 +1971,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/0y7LwDzQ/imagen-2023-08-25-155308672.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 140,
@@ -1680,7 +1984,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Nf33FpfS/imagen-2023-08-25-155256832.png",
-    "Precio": 25
+    "Precio": 25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 701,
@@ -1691,7 +1997,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/vTjpWv71/imagen-2023-08-25-155247168.png",
-    "Precio": 22.42
+    "Precio": 22.42,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 132,
@@ -1702,7 +2010,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/zvBrwB9Q/imagen-2023-08-25-155220616.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 685,
@@ -1713,7 +2023,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Y987mgyg/imagen-2023-08-25-155211653.png",
-    "Precio": 6.5
+    "Precio": 6.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 31,
@@ -1724,7 +2036,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/6QJBsBv7/imagen-2023-08-25-155159478.png",
-    "Precio": 8.75
+    "Precio": 8.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 27,
@@ -1735,7 +2049,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8P2HMYvd/imagen-2023-08-25-154831213.png",
-    "Precio": 11.25
+    "Precio": 11.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 216,
@@ -1746,7 +2062,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/zvfd2RDn/imagen-2023-08-25-154740999.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 315,
@@ -1757,7 +2075,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/GpkS4CSs/imagen-2023-08-25-154715983.png",
-    "Precio": 3.04347826086957
+    "Precio": 3.043478261,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 325,
@@ -1768,7 +2088,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/bwS5jbxg/imagen-2023-08-25-154706884.png",
-    "Precio": 37.5
+    "Precio": 37.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 190,
@@ -1779,7 +2101,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/4xjrKwfj/imagen-2023-08-25-154657946.png",
-    "Precio": 43.75
+    "Precio": 43.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 191,
@@ -1790,7 +2114,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/d1GvQpGW/imagen-2023-08-25-154645563.png",
-    "Precio": 43.75
+    "Precio": 43.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 703,
@@ -1801,7 +2127,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/jSjs68r5/imagen-2023-08-25-154609092.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 41,
@@ -1812,7 +2140,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/d3FH2SpS/imagen-2023-08-25-153843542.png",
-    "Precio": 68.75
+    "Precio": 68.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 63,
@@ -1823,7 +2153,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/rmxZtLnr/imagen-2023-08-25-153833288.png",
-    "Precio": 6.25
+    "Precio": 6.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 32,
@@ -1834,7 +2166,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/g0fBJ0Dp/imagen-2023-08-25-153823371.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 33,
@@ -1845,7 +2179,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/hGJ5cmVM/imagen-2023-08-25-153815133.png",
-    "Precio": 5.625
+    "Precio": 5.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 498,
@@ -1856,7 +2192,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8zzYX952/imagen-2023-08-25-153806001.png",
-    "Precio": 5.90909090909091
+    "Precio": 5.909090909,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 293,
@@ -1867,7 +2205,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/qq8f0KVW/imagen-2023-08-25-153754423.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 310,
@@ -1878,7 +2218,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/L6KR79Kr/imagen-2023-08-25-153745191.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 260,
@@ -1889,7 +2231,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/wxsg0tPX/imagen-2023-08-25-153736422.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 195,
@@ -1900,7 +2244,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/j5BKRKWn/imagen-2023-08-25-153728553.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 231,
@@ -1911,7 +2257,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/kMkXmN8Y/imagen-2023-08-25-153650449.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 229,
@@ -1922,7 +2270,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/mDY1HdQD/imagen-2023-08-25-153430453.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 706,
@@ -1933,7 +2283,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/d3FdNMqr/imagen-2023-08-25-153418545.png",
-    "Precio": 40.3125
+    "Precio": 40.3125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 38,
@@ -1944,7 +2296,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/TPyrpq7L/imagen-2023-08-25-153405710.png",
-    "Precio": 9.375
+    "Precio": 9.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 40,
@@ -1955,7 +2309,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/02fG3NKQ/imagen-2023-08-25-153354602.png",
-    "Precio": 6.125
+    "Precio": 6.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 26,
@@ -1966,7 +2322,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/hv88KDC2/imagen-2023-08-25-153343877.png",
-    "Precio": 3.125
+    "Precio": 3.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 526,
@@ -1977,7 +2335,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/MZfrh1zG/imagen-2023-08-25-153330647.png",
-    "Precio": 4.24285714285714
+    "Precio": 4.242857143,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 250,
@@ -1988,7 +2348,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3rzzRntp/imagen-2023-08-25-153318767.png",
-    "Precio": 6.5
+    "Precio": 6.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 334,
@@ -1999,7 +2361,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/J0SxzYmh/imagen-2023-08-25-153237685.png",
-    "Precio": 33.04
+    "Precio": 33.04,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 335,
@@ -2010,7 +2374,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/j5ZkthLW/imagen-2023-08-25-153223319.png",
-    "Precio": 41.3
+    "Precio": 41.3,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 169,
@@ -2021,7 +2387,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/kXZz2wwK/imagen-2023-08-25-153215120.png",
-    "Precio": 125
+    "Precio": 125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 348,
@@ -2032,7 +2400,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/cCkjMcWq/imagen-2023-08-25-153205057.png",
-    "Precio": 12.1875
+    "Precio": 12.1875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 707,
@@ -2043,7 +2413,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/jqvrSzG4/imagen-2023-08-25-153153936.png",
-    "Precio": 18.88
+    "Precio": 18.88,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 711,
@@ -2054,7 +2426,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/pTbPKRZQ/imagen-2023-08-25-153140039.png",
-    "Precio": 15.3
+    "Precio": 15.3,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 713,
@@ -2065,7 +2439,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/TwDpXtk0/imagen-2023-08-25-153125463.png",
-    "Precio": 18.88
+    "Precio": 18.88,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 714,
@@ -2076,7 +2452,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/50YF24tw/imagen-2023-08-25-153109346.png",
-    "Precio": 21.24
+    "Precio": 21.24,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 168,
@@ -2087,7 +2465,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/0yPm01ts/imagen-2023-08-25-153058732.png",
-    "Precio": 18.75
+    "Precio": 18.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 369,
@@ -2098,7 +2478,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/9fxGfgYj/imagen-2023-08-25-153048935.png",
-    "Precio": 8.26
+    "Precio": 8.26,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 371,
@@ -2109,7 +2491,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/htB8ZdtN/imagen-2023-08-25-153038497.png",
-    "Precio": 4.5
+    "Precio": 4.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 370,
@@ -2120,7 +2504,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/vBBcSQnJ/imagen-2023-08-25-153026886.png",
-    "Precio": 9.44
+    "Precio": 9.44,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 500,
@@ -2131,7 +2517,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/639d6Jvc/imagen-2023-08-25-153018182.png",
-    "Precio": 7.08
+    "Precio": 7.08,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 499,
@@ -2142,7 +2530,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/VkC9DFwq/imagen-2023-08-25-153008516.png",
-    "Precio": 1.6875
+    "Precio": 1.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 15,
@@ -2153,7 +2543,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/4dZ1KHrz/imagen-2023-08-25-152958945.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 188,
@@ -2164,7 +2556,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/wMwFYx4D/imagen-2023-08-25-152947862.png",
-    "Precio": 20
+    "Precio": 20,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 170,
@@ -2175,7 +2569,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/jdqkgm3z/imagen-2023-08-25-152938392.png",
-    "Precio": 4.75
+    "Precio": 4.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 119,
@@ -2186,7 +2582,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/0QpHFsqC/imagen-2023-08-25-152927322.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 172,
@@ -2197,7 +2595,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/4xWG2p13/imagen-2023-08-25-152912101.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 174,
@@ -2208,7 +2608,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/c4Q4hKjK/imagen-2023-08-25-152857902.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 171,
@@ -2219,7 +2621,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3r0wyfFF/imagen-2023-08-25-152846788.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 100,
@@ -2230,7 +2634,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/KzR8D0SF/imagen-2023-08-25-152836459.png",
-    "Precio": 4.375
+    "Precio": 4.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 102,
@@ -2241,7 +2647,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/MGZTvW9n/imagen-2023-08-25-152827376.png",
-    "Precio": 6.25
+    "Precio": 6.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 173,
@@ -2252,7 +2660,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/1t9zVyMg/imagen-2023-08-25-152814043.png",
-    "Precio": 8.75
+    "Precio": 8.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 187,
@@ -2263,7 +2673,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/yYNSrymJ/imagen-2023-08-25-152737970.png",
-    "Precio": 9.875
+    "Precio": 9.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 92,
@@ -2274,7 +2686,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/sXppsfxv/imagen-2023-08-25-152723084.png",
-    "Precio": 6.875
+    "Precio": 6.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 98,
@@ -2285,7 +2699,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/nV4kt290/imagen-2023-08-25-152711009.png",
-    "Precio": 6.875
+    "Precio": 6.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 101,
@@ -2296,7 +2712,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/j5WFX7MB/imagen-2023-08-25-152620277.png",
-    "Precio": 8.125
+    "Precio": 8.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 68,
@@ -2307,7 +2725,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/25jp43Rf/imagen-2023-08-25-152609835.png",
-    "Precio": 5.75
+    "Precio": 5.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 66,
@@ -2318,7 +2738,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/CxsTBk2N/imagen-2023-08-25-152601655.png",
-    "Precio": 16.25
+    "Precio": 16.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 757,
@@ -2329,7 +2751,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/DfSTjWWv/imagen-2023-08-25-152548361.png",
-    "Precio": 3.3
+    "Precio": 3.3,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 252,
@@ -2340,7 +2764,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/gJ6Z4z8g/imagen-2023-08-25-152436420.png",
-    "Precio": 5.125
+    "Precio": 5.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 67,
@@ -2351,7 +2777,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/9QJZQNcY/imagen-2023-08-25-152408901.png",
-    "Precio": 4.5
+    "Precio": 4.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 175,
@@ -2362,7 +2790,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/jdYzg78P/imagen-2023-08-25-152350045.png",
-    "Precio": 6.25
+    "Precio": 6.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 110,
@@ -2373,7 +2803,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8c6mFdZP/imagen-2023-08-25-152322753.png",
-    "Precio": 5.9
+    "Precio": 5.9,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 176,
@@ -2384,7 +2816,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/j5CXTYNf/imagen-2023-08-25-152314809.png",
-    "Precio": 8.75
+    "Precio": 8.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 177,
@@ -2395,7 +2829,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Y2ZXp0dC/imagen-2023-08-25-152304381.png",
-    "Precio": 7.5
+    "Precio": 7.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 178,
@@ -2406,7 +2842,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/c1r9ywMz/imagen-2023-08-25-152254438.png",
-    "Precio": 8.125
+    "Precio": 8.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 179,
@@ -2417,7 +2855,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/hvdhcXhm/imagen-2023-08-25-152244719.png",
-    "Precio": 11.875
+    "Precio": 11.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 42,
@@ -2428,7 +2868,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/4d39k4zv/imagen-2023-08-25-152235856.png",
-    "Precio": 10.625
+    "Precio": 10.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 43,
@@ -2439,7 +2881,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/1zBqjVN5/imagen-2023-08-25-152225690.png",
-    "Precio": 14.375
+    "Precio": 14.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 163,
@@ -2450,7 +2894,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Nf2Rj0Zp/imagen-2023-08-25-152211268.png",
-    "Precio": 18.75
+    "Precio": 18.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 718,
@@ -2461,7 +2907,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Xvbfh0Hx/imagen-2023-08-25-152157010.png",
-    "Precio": 19.6875
+    "Precio": 19.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 55,
@@ -2472,7 +2920,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/RZf1X0RN/imagen-2023-08-25-152145521.png",
-    "Precio": 15
+    "Precio": 15,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 717,
@@ -2483,7 +2933,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/j5RhWryC/imagen-2023-08-25-152134896.png",
-    "Precio": 13.125
+    "Precio": 13.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 590,
@@ -2494,7 +2946,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/kgk1gZjt/imagen-2023-08-25-152115199.png",
-    "Precio": 10.875
+    "Precio": 10.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 148,
@@ -2505,7 +2959,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/HsYFqfKY/imagen-2023-08-25-152052584.png",
-    "Precio": 15
+    "Precio": 15,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 665,
@@ -2516,7 +2972,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/J0qvyqyC/imagen-2023-08-25-152041750.png",
-    "Precio": 47.2
+    "Precio": 47.2,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 64,
@@ -2527,7 +2985,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ZnZXKg5L/imagen-2023-08-25-152030959.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 398,
@@ -2538,7 +2998,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Px1BHhTx/imagen-2023-08-25-152017819.png",
-    "Precio": 1.6875
+    "Precio": 1.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 401,
@@ -2549,7 +3011,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/wjTHktHk/imagen-2023-08-25-152005872.png",
-    "Precio": 7.906
+    "Precio": 7.906,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 402,
@@ -2560,7 +3024,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/qqV4cjMt/imagen-2023-08-25-151947603.png",
-    "Precio": 1.6875
+    "Precio": 1.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 811,
@@ -2571,7 +3037,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/VkYsHG9n/imagen-2023-08-25-151935347.png",
-    "Precio": 17.7
+    "Precio": 17.7,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 410,
@@ -2582,7 +3050,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/2yhjggXF/imagen-2023-08-25-151923120.png",
-    "Precio": 0.75
+    "Precio": 0.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 71,
@@ -2593,7 +3063,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/C1ZxsRG2/imagen-2023-08-25-151907195.png",
-    "Precio": 3.375
+    "Precio": 3.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 165,
@@ -2604,7 +3076,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ZqwSgJYh/imagen-2023-08-25-151851655.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 414,
@@ -2615,7 +3089,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/NF9BmZcv/imagen-2023-08-25-151839997.png",
-    "Precio": 211.22
+    "Precio": 211.22,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 415,
@@ -2626,7 +3102,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/XJvV7p1J/imagen-2023-08-25-151828240.png",
-    "Precio": 152.22
+    "Precio": 152.22,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 56,
@@ -2637,7 +3115,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/VkyLBsvG/imagen-2023-08-25-151819225.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 418,
@@ -2648,7 +3128,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/SRJNVJc5/imagen-2023-08-25-151809558.png",
-    "Precio": 6.85454545454545
+    "Precio": 6.854545455,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 78,
@@ -2659,7 +3141,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/9MXfRx0c/imagen-2023-08-25-151757637.png",
-    "Precio": 3.625
+    "Precio": 3.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 79,
@@ -2670,7 +3154,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/9fcYNhzV/imagen-2023-08-25-151120069.png",
-    "Precio": 0.625
+    "Precio": 0.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 654,
@@ -2681,7 +3167,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/1tqXGgPz/imagen-2023-08-25-150953074.png",
-    "Precio": 11.8
+    "Precio": 11.8,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 670,
@@ -2692,7 +3180,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/rF6WPkYb/imagen-2023-08-25-150938139.png",
-    "Precio": 22.5
+    "Precio": 22.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 655,
@@ -2703,7 +3193,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/6pXryXrR/imagen-2023-08-25-150917545.png",
-    "Precio": 22.5
+    "Precio": 22.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 658,
@@ -2714,7 +3206,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Wzq37dv3/imagen-2023-08-25-150908360.png",
-    "Precio": 37.5
+    "Precio": 37.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 657,
@@ -2725,7 +3219,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/k572dMx1/imagen-2023-08-25-150857687.png",
-    "Precio": 10.62
+    "Precio": 10.62,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 659,
@@ -2736,7 +3232,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/43G9NQT1/imagen-2023-08-25-150841014.png",
-    "Precio": 30.68
+    "Precio": 30.68,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 2,
@@ -2747,7 +3245,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/7hh7rPy8/imagen-2023-08-25-150822392.png",
-    "Precio": 19.6875
+    "Precio": 19.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 155,
@@ -2758,7 +3258,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Kc0rqwyh/imagen-2023-08-25-150809223.png",
-    "Precio": 32.5
+    "Precio": 32.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 51,
@@ -2769,7 +3271,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/dtS61XWj/imagen-2023-08-25-150738094.png",
-    "Precio": 40
+    "Precio": 40,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 154,
@@ -2780,7 +3284,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/WzN8FPLX/imagen-2023-08-25-150728830.png",
-    "Precio": 20
+    "Precio": 20,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 656,
@@ -2791,7 +3297,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/9Mt1QQSD/imagen-2023-08-25-150717491.png",
-    "Precio": 28.32
+    "Precio": 28.32,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 152,
@@ -2802,7 +3310,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/tJpS3xPd/imagen-2023-08-25-150706743.png",
-    "Precio": 36.25
+    "Precio": 36.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 54,
@@ -2813,7 +3323,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/SRh5g50M/imagen-2023-08-25-150655247.png",
-    "Precio": 21.25
+    "Precio": 21.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 57,
@@ -2824,7 +3336,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/m2QZ2fZ0/imagen-2023-08-25-150645071.png",
-    "Precio": 18.75
+    "Precio": 18.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 153,
@@ -2835,7 +3349,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/G2V39by1/imagen-2023-08-25-150632559.png",
-    "Precio": 37.5
+    "Precio": 37.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 85,
@@ -2846,7 +3362,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/h4Xfn5dB/imagen-2023-08-25-150610156.png",
-    "Precio": 25
+    "Precio": 25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 143,
@@ -2857,7 +3375,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/pLfvxDCx/imagen-2023-08-25-150558705.png",
-    "Precio": 4.6875
+    "Precio": 4.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 767,
@@ -2868,7 +3388,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/V6G1pmRC/imagen-2023-08-25-150548906.png",
-    "Precio": 5.25
+    "Precio": 5.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 146,
@@ -2879,7 +3401,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/MTdKwyWX/imagen-2023-08-25-150535731.png",
-    "Precio": 6.5625
+    "Precio": 6.5625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 144,
@@ -2890,7 +3414,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/m2qkhN7H/imagen-2023-08-25-150523227.png",
-    "Precio": 6
+    "Precio": 6,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 145,
@@ -2901,7 +3427,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/NMY5BsmC/imagen-2023-08-25-150513341.png",
-    "Precio": 8.4375
+    "Precio": 8.4375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 423,
@@ -2912,7 +3440,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/SRgXgBXT/imagen-2023-08-25-150451435.png",
-    "Precio": 1.40625
+    "Precio": 1.40625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 660,
@@ -2923,7 +3453,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/264h79FM/imagen-2023-08-25-150408755.png",
-    "Precio": 4.2
+    "Precio": 4.2,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 120,
@@ -2934,7 +3466,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/L4t3t5x5/imagen-2023-08-25-150353821.png",
-    "Precio": 32.5
+    "Precio": 32.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 121,
@@ -2945,7 +3479,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/KjD7xp1B/imagen-2023-08-25-150343303.png",
-    "Precio": 46.02
+    "Precio": 46.02,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 832,
@@ -2956,7 +3492,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/tJjt0G49/imagen-2023-08-25-150334061.png",
-    "Precio": 2.8125
+    "Precio": 2.8125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 166,
@@ -2967,7 +3505,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/7LjnV2vG/imagen-2023-08-25-150321837.png",
-    "Precio": 1.25
+    "Precio": 1.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 373,
@@ -2978,7 +3518,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/sDJKrxWq/imagen-2023-08-25-150303263.png",
-    "Precio": 2.8125
+    "Precio": 2.8125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 17,
@@ -2989,7 +3531,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/28YTMh1n/imagen-2023-08-25-150252362.png",
-    "Precio": 2.5
+    "Precio": 2.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 754,
@@ -3000,7 +3544,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/gjF4Y6NF/imagen-2023-08-25-150238188.png",
-    "Precio": 1.875
+    "Precio": 1.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 769,
@@ -3011,7 +3557,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/wBr0GrNB/imagen-2023-08-25-150226054.png",
-    "Precio": 14.0625
+    "Precio": 14.0625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 1,
@@ -3022,7 +3570,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/xj4FZcKR/imagen-2023-08-25-150117105.png",
-    "Precio": 14.1
+    "Precio": 14.1,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 833,
@@ -3033,7 +3583,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/hv6yQ5Sw/imagen-2023-08-25-150105461.png",
-    "Precio": 11.875
+    "Precio": 11.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 434,
@@ -3044,7 +3596,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/QtNn2746/imagen-2023-08-25-150052812.png",
-    "Precio": 206.5
+    "Precio": 206.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 431,
@@ -3055,7 +3609,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/brJWtn1G/imagen-2023-08-25-150030058.png",
-    "Precio": 761.1
+    "Precio": 761.1,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 432,
@@ -3066,7 +3622,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/zfCsZ8Jf/imagen-2023-08-25-150019535.png",
-    "Precio": 767
+    "Precio": 767,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 433,
@@ -3077,7 +3635,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/dVkFfbk7/imagen-2023-08-25-150004093.png",
-    "Precio": 377.6
+    "Precio": 377.6,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 437,
@@ -3088,7 +3648,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/m2rBYzTy/imagen-2023-08-25-145950392.png",
-    "Precio": 153.4
+    "Precio": 153.4,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 319,
@@ -3099,7 +3661,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/26fCh051/imagen-2023-08-25-145937916.png",
-    "Precio": 12.98
+    "Precio": 12.98,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 96,
@@ -3110,7 +3674,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/TPbRKzT8/imagen-2023-08-25-145928837.png",
-    "Precio": 36.25
+    "Precio": 36.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 97,
@@ -3121,7 +3687,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/66fpLxnt/imagen-2023-08-25-145917837.png",
-    "Precio": 43.75
+    "Precio": 43.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 25,
@@ -3132,7 +3700,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8CfChFB0/imagen-2023-08-25-145852852.png",
-    "Precio": 31.25
+    "Precio": 31.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 24,
@@ -3143,7 +3713,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/nhPzjK7m/imagen-2023-08-25-145841344.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 87,
@@ -3154,7 +3726,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/MpTHp3cx/imagen-2023-08-25-145830117.png",
-    "Precio": 24.375
+    "Precio": 24.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 95,
@@ -3165,7 +3739,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/8PgLsGDG/imagen-2023-08-25-145807452.png",
-    "Precio": 35
+    "Precio": 35,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 19,
@@ -3176,7 +3752,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/bY79bbxK/imagen-2023-08-25-145748628.png",
-    "Precio": 81.25
+    "Precio": 81.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 150,
@@ -3187,7 +3765,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/gJ5qgLfL/imagen-2023-08-25-145730319.png",
-    "Precio": 98.75
+    "Precio": 98.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 482,
@@ -3198,7 +3778,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/LsxVZbDT/imagen-2023-08-25-145720025.png",
-    "Precio": 54.28
+    "Precio": 54.28,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 189,
@@ -3209,7 +3791,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/qvXwpRCW/imagen-2023-08-25-145709173.png",
-    "Precio": 13.125
+    "Precio": 13.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 762,
@@ -3220,7 +3804,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/dtCnSnQs/imagen-2023-08-25-145654066.png",
-    "Precio": 81.42
+    "Precio": 81.42,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 65,
@@ -3231,7 +3817,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/0Q3jmkDf/imagen-2023-08-25-145626832.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 416,
@@ -3242,7 +3830,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/pdCn9MsG/imagen-2023-08-25-145610164.png",
-    "Precio": 35.625
+    "Precio": 35.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 648,
@@ -3253,7 +3843,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/tJYPQvtr/imagen-2023-08-25-145553491.png",
-    "Precio": 54.375
+    "Precio": 54.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 149,
@@ -3264,7 +3856,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/28gdmYtn/imagen-2023-08-25-145536009.png",
-    "Precio": 43.75
+    "Precio": 43.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 151,
@@ -3275,7 +3869,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/T27q7gq7/imagen-2023-08-25-145524639.png",
-    "Precio": 36.875
+    "Precio": 36.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 462,
@@ -3286,7 +3882,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/bw2T2rn6/imagen-2023-08-25-145511859.png",
-    "Precio": 90
+    "Precio": 90,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 22,
@@ -3297,7 +3895,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Rh7mF4Rq/imagen-2023-08-25-145456283.png",
-    "Precio": 56.25
+    "Precio": 56.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 21,
@@ -3308,7 +3908,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/DfMyYwWd/imagen-2023-08-25-145319710.png",
-    "Precio": 47.5
+    "Precio": 47.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 759,
@@ -3319,7 +3921,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/26j8gqFT/imagen-2023-08-25-145306022.png",
-    "Precio": 64.9
+    "Precio": 64.9,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 124,
@@ -3330,7 +3934,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/DZ53GBGP/imagen-2023-08-25-144909291.png",
-    "Precio": 30
+    "Precio": 30,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 764,
@@ -3341,7 +3947,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ryCKnk1f/imagen-2023-08-25-144815572.png",
-    "Precio": 37.3125
+    "Precio": 37.3125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 812,
@@ -3352,7 +3960,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/wT2Rvp31/imagen-2023-08-25-144804293.png",
-    "Precio": 9.44
+    "Precio": 9.44,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 575,
@@ -3363,7 +3973,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/BvkK0BbN/imagen-2023-08-25-144745181.png",
-    "Precio": 4.125
+    "Precio": 4.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 576,
@@ -3374,7 +3986,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/PqRmqk3W/imagen-2023-08-25-144731041.png",
-    "Precio": 4.6875
+    "Precio": 4.6875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 827,
@@ -3385,7 +3999,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/T2WcppXp/imagen-2023-08-25-144719458.png",
-    "Precio": 4.125
+    "Precio": 4.125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 461,
@@ -3396,7 +4012,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/kgCwr9zD/imagen-2023-08-25-144642822.png",
-    "Precio": 2.4375
+    "Precio": 2.4375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 570,
@@ -3407,7 +4025,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/B6BwybQS/imagen-2023-08-25-144616049.png",
-    "Precio": 2.4375
+    "Precio": 2.4375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 472,
@@ -3418,7 +4038,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/vZjRL4DC/imagen-2023-08-25-144600808.png",
-    "Precio": 138.06
+    "Precio": 138.06,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 88,
@@ -3429,7 +4051,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/wvDdB9qZ/imagen-2023-08-25-144540358.png",
-    "Precio": 5.625
+    "Precio": 5.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 90,
@@ -3440,7 +4064,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/QMttV9wP/imagen-2023-08-25-144510082.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 80,
@@ -3451,7 +4077,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/NFyfD3Bx/imagen-2023-08-25-144449874.png",
-    "Precio": 22.5
+    "Precio": 22.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 89,
@@ -3462,7 +4090,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/prVKdXQL/imagen-2023-08-25-144432613.png",
-    "Precio": 0.0125
+    "Precio": 0.0125,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 483,
@@ -3473,7 +4103,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/L5F0QfM0/imagen-2023-08-25-144414751.png",
-    "Precio": 6.9375
+    "Precio": 6.9375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 142,
@@ -3484,7 +4116,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/d1sYHzmy/imagen-2023-08-25-144343766.png",
-    "Precio": 56.25
+    "Precio": 56.25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 72,
@@ -3495,7 +4129,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/CLFqC1qh/imagen-2023-08-25-144330318.png",
-    "Precio": 18.75
+    "Precio": 18.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 86,
@@ -3506,7 +4142,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/pd7b2pDP/imagen-2023-08-25-143353493.png",
-    "Precio": 36.875
+    "Precio": 36.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 773,
@@ -3517,7 +4155,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/1z41hpVW/imagen-2023-08-25-143338182.png",
-    "Precio": 31.875
+    "Precio": 31.875,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 484,
@@ -3528,7 +4168,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/YSX2QrYP/imagen-2023-08-25-143320066.png",
-    "Precio": 4
+    "Precio": 4,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 826,
@@ -3539,7 +4181,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Wbx4fHJW/imagen-2023-08-25-142708313.png",
-    "Precio": 3.5
+    "Precio": 3.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 123,
@@ -3550,7 +4194,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/6qN000fy/imagen-2023-08-25-142547462.png",
-    "Precio": 25
+    "Precio": 25,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 6,
@@ -3561,7 +4207,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/q75D8yF3/imagen-2023-08-25-142522410.png",
-    "Precio": 22.5
+    "Precio": 22.5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 156,
@@ -3572,7 +4220,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/htKYgSxf/imagen-2023-08-25-142507506.png",
-    "Precio": 53.75
+    "Precio": 53.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 814,
@@ -3583,7 +4233,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/x1QwCGrj/imagen-2023-08-25-142453263.png",
-    "Precio": 12.98
+    "Precio": 12.98,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 253,
@@ -3594,7 +4246,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/Ghy7v4PB/imagen-2023-08-25-142424261.png",
-    "Precio": 15.34
+    "Precio": 15.34,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 184,
@@ -3605,7 +4259,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/3x2qQkdM/imagen-2023-08-25-142351988.png",
-    "Precio": 20
+    "Precio": 20,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 185,
@@ -3616,7 +4272,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/LXx7QGhn/imagen-2023-08-25-142337079.png",
-    "Precio": 23.75
+    "Precio": 23.75,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 77,
@@ -3627,7 +4285,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/59zZ1KHQ/imagen-2023-08-25-141743972.png",
-    "Precio": 9.375
+    "Precio": 9.375,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 69,
@@ -3638,7 +4298,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/hP7NDyf7/imagen-2023-08-25-141724240.png",
-    "Precio": 6
+    "Precio": 6,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 76,
@@ -3649,7 +4311,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/CxBp9MVk/imagen-2023-08-25-140438315.png",
-    "Precio": 5
+    "Precio": 5,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 70,
@@ -3660,7 +4324,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/MGrH1gH6/imagen-2023-08-25-133837878.png",
-    "Precio": 10.625
+    "Precio": 10.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 50,
@@ -3671,7 +4337,9 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/ZRTBL6FH/imagen-2023-08-25-133711102.png",
-    "Precio": 10.625
+    "Precio": 10.625,
+    "Novedades": "",
+    "BestSeller": ""
   },
   {
     "Orden": 49,
@@ -3682,6 +4350,8 @@
     "Stock": 50,
     "Descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt consequatur consectetur voluptates quos, alias nisi doloremque necessitatibus consequuntur tenetur, eos similique explicabo voluptatum eveniet autem accusantium nobis quasi impedit.",
     "Image": "https://i.postimg.cc/FKCsVfqt/imagen-2023-08-25-132122045.png",
-    "Precio": 18.75
+    "Precio": 18.75,
+    "Novedades": "",
+    "BestSeller": ""
   }
 ]

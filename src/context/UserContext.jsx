@@ -11,3 +11,14 @@ export const UserProvider = ({children}) => {
         </UserContext.Provider>
     )
 }
+
+export const UserContextProducts = createContext()
+export const UserProvideProducts = ({children}) => {
+    const [categoriaBuscar,setCategoriaBuscar] = useState('All')
+    
+    return(
+        <UserContextProducts.Provider value={{categoriaBuscar,setCategoriaBuscar}}>
+            {children}
+        </UserContextProducts.Provider>
+    )
+}
