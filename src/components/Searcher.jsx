@@ -17,10 +17,10 @@ const Searcher = () => {
   const handleSearch = async (event) =>{
     if (event.key === 'Enter') {    //se eligio el event.key==='Enter' para evitar saturar de consultas al servidor
       const value = document.querySelector('.buscador').value
-      console.log(value)
       if (value.length >=4) {
+        setFound({...found, show: true})
         const buscado = await SearchProducts(value)
-        if (buscado) {
+        if (buscado.length !==0) {
           setFound({...found, founded: true})
         }else{
           buscado.push('No existen resultados')
@@ -44,21 +44,24 @@ const Searcher = () => {
     navigate(`/producto/${id}`)
     referencia.current.value = ''
   }
+  // setTimeout(() => {
+  //   setFound({ ...found, show: true });
+  // }, 5000)
   return (
     <>
     <div>
       <div className='flex gap-1 px-2 items-center rounded-lg bg-white justify-between'>
-          <input className='buscador outline-none h-8 px-1' type="text" placeholder='Buscador... ' onKeyUp={handleSearch} onBlur={()=>setFound({...found, show: false})} ref={referencia}/>
-          <img className='h-8' src={lupa} alt="lupa buscador" onClick={handleImageClick} onKeyUp={handleSearch} onBlur={()=>setFound({...found, show: false})}/>
+          <input className='buscador outline-none h-8 px-1' type="text" placeholder='Buscador... ' onKeyUp={handleSearch} ref={referencia} onBlur={()=>setFound({...found, show: false})}/>
+          <img className='h-8' src={lupa} alt="lupa buscador" onClick={handleImageClick} onBlur={()=>setFound({...found, show: false})}/>
       </div>
       {found.show && 
         <div className='bg-white absolute max-h-[198px] w-[200px] max-w-[400px] overflow-y-auto mt-2'>
           <ul className='cursor-pointer'>
-            {results.map((resultado)=>(
+            {results.map((resultado,index)=>(
               found.founded ? (
-                <li key={resultado.id} className='p-2' onClick={()=>handleRedirect(resultado.id)}></li>)
+                <li key={resultado.id} className='p-2' onClick={()=>handleRedirect(resultado.id)}>{resultado.Articulo}</li>)
                 : (
-                <li key={resultado} className='p-2'>{resultado}</li>)
+                <li key={index} className='p-2'>{resultado}</li>)
             ))}
           </ul>
         </div>
