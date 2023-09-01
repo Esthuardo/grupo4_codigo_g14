@@ -1,4 +1,4 @@
-import { addDoc, collection, getDocs, query, where, updateDoc, getDoc,doc } from "firebase/firestore"
+import { addDoc, collection, getDocs, query, where, updateDoc, getDoc,doc, deleteDoc } from "firebase/firestore"
 import { firestore } from "../services/firebase"
 
 export const userUserStats = () =>{
@@ -53,13 +53,13 @@ export const userUserStats = () =>{
             return 0
         }
     }
-    const asignarAlCarrito = async(nombre,precio,cantidad)=>{
+    const asignarAlCarrito = async(nombre,precio,cantidad,imagen)=>{
         try {
             const docReference = await referenciaUser()
             const existeUsuario = await datosUser()
             if (existeUsuario) {
                 const nuevaCompra = {
-                    cantidad,precio
+                    cantidad,precio,imagen
                 }
                 const agregarCompra = {...existeUsuario.ProductosCarrito,[nombre]:nuevaCompra}
                 await updateDoc(docReference,{ProductosCarrito:agregarCompra})
@@ -70,12 +70,42 @@ export const userUserStats = () =>{
             return false
         }
     }
+    const obtenerProductoCarrito = async() =>{
+        try {
+            const data = await datosUser()
+            const productosCarrito = data.ProductosCarrito
+            return productosCarrito
+        } catch (error) {
+            return {}
+        }
+    }
+    const eliminarProductoCarrito = async(producto) =>{
+        const referencia = await referenciaUser()
+        const docReference = doc(firestore, 'users', referencia.id);
+        const existingData = await getDoc(docReference);
+
+        if (existingData.exists()) {
+            const userData = existingData.data();
+            if (userData.ProductosCarrito && userData.ProductosCarrito[producto]) {
+              delete userData.ProductosCarrito[producto];
+              try {
+                await updateDoc(docReference, { ProductosCarrito: userData.ProductosCarrito });
+                const newProductosCarrito = await obtenerProductoCarrito();
+                return newProductosCarrito;
+              } catch (error) {
+                return error;
+              }
+            }
+          }
+    }
     return{
         createUser,
         obtainUser,
         datosUser,
         modificarCampo,
         obtenerCarrito,
-        asignarAlCarrito
+        asignarAlCarrito,
+        obtenerProductoCarrito,
+        eliminarProductoCarrito
     }
 }

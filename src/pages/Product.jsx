@@ -43,7 +43,7 @@ const Product = () => {
   const agregarCarrito = async() =>{
     if (cantidad !== 0) {
       const total = totalValor + (cantidad * producto.Precio)
-      const seAsigno = await asignarAlCarrito(producto.Articulo,producto.Precio,cantidad)
+      const seAsigno = await asignarAlCarrito(producto.Articulo,producto.Precio,cantidad,producto.Image)
       if (seAsigno) {
         setTotalValor(total)
         await modificarCampo('carrito',total)
