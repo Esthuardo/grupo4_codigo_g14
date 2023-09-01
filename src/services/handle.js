@@ -15,3 +15,11 @@ export const ErrorMessage = ({titulo,mensaje}) => {
         text: mensaje,
     })
 }
+
+export const ProcesoCorrecto = ({titulo}) =>{
+    const MySwal = withReactContent(Swal)
+    Swal.fire({
+        icon: 'success',
+        title: 'titulo',
+      })
+}

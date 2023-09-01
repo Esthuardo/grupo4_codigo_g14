@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import useUserAuth from "../hooks/useUserAuth" 
-import { ErrorMessage } from "../services/handle"
+import { ErrorMessage, ProcesoCorrecto } from "../services/handle"
 import { UserContext } from "../context/UserContext"
 
 import { userUserStats } from "../hooks/useUserStats"
@@ -15,7 +15,7 @@ const Product = () => {
   const [producto, setProducto] = useState([])
   const navigate = useNavigate()
   const {isAuth} = useUserAuth()
-  const {modificarCampo} = userUserStats()
+  const {modificarCampo, asignarAlCarrito} = userUserStats()
   const {datosProductos} = useProducts()
 
   const {totalValor,setTotalValor} = useContext(UserContext)
@@ -43,9 +43,16 @@ const Product = () => {
   const agregarCarrito = async() =>{
     if (cantidad !== 0) {
       const total = totalValor + (cantidad * producto.Precio)
-      setTotalValor(total)
-      await modificarCampo('carrito',total)
-      setCantidad(0)
+      const seAsigno = await asignarAlCarrito(producto.Articulo,producto.Precio,cantidad)
+      if (seAsigno) {
+        setTotalValor(total)
+        await modificarCampo('carrito',total)
+        setCantidad(0)
+        ProcesoCorrecto({titulo: 'Producto agregado al carrito'})
+      }else{
+        ErrorMessage({titulo:'Error',mensaje:'Error al guardar el producto'})
+      }
+      
     }else{
       ErrorMessage({titulo:'Cantidad invalida',mensaje:'Para agregar al carrito necesita minimo un producto'})
     }

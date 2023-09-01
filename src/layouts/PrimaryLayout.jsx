@@ -1,7 +1,9 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import { Link, Outlet, useNavigate } from 'react-router-dom'
 import useUserAuth from '../hooks/useUserAuth'
+import { userUserStats } from '../hooks/useUserStats'
 import { UserContext } from '../context/UserContext'
+import ModalCarrito from '../components/Modal/ModalCarrito'
 
 
 import Searcher from '../components/Searcher'
@@ -16,13 +18,23 @@ import TikTok from '../assets/images/TikTok.svg'
 
 const PrimaryLayout = () => {
   const navigate = useNavigate()
-  const {totalValor} = useContext(UserContext)
+  const {totalValor,setTotalValor} = useContext(UserContext)
+  const [ModalOpen,setModalOpen] = useState(false)
   const [user,setUser]=useState({
     showMenu: false,
     image: UserNoLogin,
   })
   const {isAuth} = useUserAuth()
 
+  useEffect(()=>{
+    const asignarValor = async() =>{
+        const {obtenerCarrito} = userUserStats()
+        const valor = await obtenerCarrito()
+        console.log(valor)
+        setTotalValor(valor)
+    }
+    asignarValor()
+},[])
   useState(()=>{
     if (isAuth) {
       setUser({...user,image: UserLogin})
@@ -42,6 +54,9 @@ const PrimaryLayout = () => {
     }
     navigate(`/${page}`)
   }
+  const handleOpenModal = () =>{
+    setModalOpen(true)
+  }
   return (
     <>
         <header className='flex justify-between bg-red-400 h-[7.875ren] items-center px-4'>
@@ -53,7 +68,7 @@ const PrimaryLayout = () => {
               <span className='text-3xl text-white font-bold cursor-pointer' onClick={()=>navigate('/productos')}> | Nuestros productos | </span>
             </section>
             <section className='flex gap-3'>
-              <div className='flex bg-yellow-400 items-center px-4 rounded-lg gap-4'>
+              <div className='flex bg-yellow-400 items-center px-4 rounded-lg gap-4' onClick={handleOpenModal}>
                 <img src={shopCar} alt='carrito' />
                 <label className='text-4xl font-bold'>{totalValor.toFixed(2)}</label>
               </div>
@@ -78,11 +93,12 @@ const PrimaryLayout = () => {
                   )}
                 </div>
               </div>
-              
             </section>
         </header>
+        <ModalCarrito isOpen={ModalOpen} onClose={()=>{setModalOpen(false)}}/>
         <main>
             <Outlet/>
+            
         </main>
         <footer className='bg-black grid grid-cols-3 px-10 py-4 text-white'>
           <section className='flex flex-col gap-3 items-center justify-center '>

@@ -13,7 +13,8 @@ export const userUserStats = () =>{
             telefono: form.phoneCode + " " + form.telefono,
             contraseña: form.contraseña,
             carrito: 0,
-            direccion: ''
+            direccion: '',
+            ProductosCarrito:{}
         }
         const response = await addDoc(reference,newUser)
         return{ id: response.id,newUser}
@@ -44,11 +45,37 @@ export const userUserStats = () =>{
         const datos = await getDoc(referencia)
         return datos.data()
     }
-
+    const obtenerCarrito = async()=>{
+        try{
+            const carrito = await datosUser()
+            return carrito.carrito
+        }catch{
+            return 0
+        }
+    }
+    const asignarAlCarrito = async(nombre,precio,cantidad)=>{
+        try {
+            const docReference = await referenciaUser()
+            const existeUsuario = await datosUser()
+            if (existeUsuario) {
+                const nuevaCompra = {
+                    cantidad,precio
+                }
+                const agregarCompra = {...existeUsuario.ProductosCarrito,[nombre]:nuevaCompra}
+                await updateDoc(docReference,{ProductosCarrito:agregarCompra})
+            }
+            return true
+        } catch (error) {
+            console.log(error)
+            return false
+        }
+    }
     return{
         createUser,
         obtainUser,
         datosUser,
-        modificarCampo
+        modificarCampo,
+        obtenerCarrito,
+        asignarAlCarrito
     }
 }
