@@ -15,7 +15,7 @@ const Product = () => {
   const [producto, setProducto] = useState([])
   const navigate = useNavigate()
   const {isAuth} = useUserAuth()
-  const {agregarProductoCarrito} = userUserStats()
+  const {modificarCampo} = userUserStats()
   const {datosProductos} = useProducts()
 
   const {totalValor,setTotalValor} = useContext(UserContext)
@@ -44,7 +44,7 @@ const Product = () => {
     if (cantidad !== 0) {
       const total = totalValor + (cantidad * producto.Precio)
       setTotalValor(total)
-      await agregarProductoCarrito(total)
+      await modificarCampo('carrito',total)
       setCantidad(0)
     }else{
       ErrorMessage({titulo:'Cantidad invalida',mensaje:'Para agregar al carrito necesita minimo un producto'})

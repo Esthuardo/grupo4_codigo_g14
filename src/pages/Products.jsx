@@ -26,13 +26,14 @@ const Products = () => {
     setPages(Math.ceil(productosObtenidos.length /8))
     handleList(pageList)
   }
-  
+
   useEffect(()=>{
     setCategoriaBuscar('All')
   },[])
 
   useEffect(()=>{
     obtenerProductos()
+    handleList(1)
   },[categoriaBuscar])
 
   const handleList = (page) =>{

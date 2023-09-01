@@ -12,7 +12,8 @@ export const userUserStats = () =>{
             email: form.email,
             telefono: form.phoneCode + " " + form.telefono,
             contraseña: form.contraseña,
-            carrito: 0
+            carrito: 0,
+            direccion: ''
         }
         const response = await addDoc(reference,newUser)
         return{ id: response.id,newUser}
@@ -35,8 +36,8 @@ export const userUserStats = () =>{
         const docReference = doc(firestore,'users', response.docs[0].id)
         return docReference
     }
-    const agregarProductoCarrito = async (value) =>{
-        await updateDoc(await referenciaUser(),{carrito: value})
+    const modificarCampo = async (campo,value) =>{
+        await updateDoc(await referenciaUser(),{[campo]: value})
     }
     const datosUser = async()=>{
         const referencia = await referenciaUser()
@@ -48,6 +49,6 @@ export const userUserStats = () =>{
         createUser,
         obtainUser,
         datosUser,
-        agregarProductoCarrito
+        modificarCampo
     }
 }
