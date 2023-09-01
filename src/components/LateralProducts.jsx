@@ -19,10 +19,10 @@ const LateralProducts = () => {
   }
   return (
     <>
-      <h1 className='text-center underline font-semibold text-2xl' onClick={()=>handleClick('All')}>Accesorios</h1>
+      <h1 className='text-center underline font-semibold text-2xl cursor-pointer' onClick={()=>handleClick('Más vendidos')}>Accesorios</h1>
       <div className='flex flex-col items-start mt-4'>
         {categorias.map((categoria)=>(
-          <button className='ml-5 mb-2' key={categoria} onClick={()=>handleClick(categoria)}>▶ {categoria}</button>
+          <button className='ml-5 mb-2 font-semibold' key={categoria} onClick={()=>handleClick(categoria)}>▶ {categoria}</button>
         ))}
       </div>
     </>

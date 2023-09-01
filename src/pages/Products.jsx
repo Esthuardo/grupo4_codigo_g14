@@ -17,7 +17,7 @@ const Products = () => {
 
   const obtenerProductos = async () =>{
     let productosObtenidos= []
-    if (categoriaBuscar === 'All') {
+    if (categoriaBuscar === 'Más vendidos') {
       productosObtenidos = await showNovedades()
     }else{
       productosObtenidos = await showCategoria(categoriaBuscar)
@@ -28,13 +28,17 @@ const Products = () => {
   }
 
   useEffect(()=>{
-    setCategoriaBuscar('All')
+    setCategoriaBuscar('Más vendidos')
   },[])
 
   useEffect(()=>{
     obtenerProductos()
     handleList(1)
   },[categoriaBuscar])
+
+  useEffect(() => {
+    handleList(1)
+  }, [showCategory])
 
   const handleList = (page) =>{
     setPageList(page)
@@ -55,14 +59,14 @@ const Products = () => {
         <LateralProducts/>
       </section>
       <section className='col-span-4'>
-        <div className='text-3xl bg-red-400 text-center py-5 font-semibold underline'>{categoriaBuscar}</div>
+        <div className='text-3xl bg-[#17823C] text-white text-center py-5 font-semibold underline'>{categoriaBuscar}</div>
         <section className='grid grid-cols-4 gap-10 mt-7'>
           {productos.map((producto) =>(
-          <div key={producto.id} className='w-[16.875rem] h-[25rem] items-center flex flex-col justify-center gap-3 p-3 bg-green-400 rounded-2xl'>
+          <div key={producto.id} className='w-[16.875rem] h-[25rem] items-center flex flex-col justify-center gap-3 p-3 bg-[#149968] text-white font-semibold rounded-2xl'>
             <img className='w-[12.5rem] h-[15.625rem] cursor-pointer' src={producto.Image}  alt=""  onClick={()=>handleRedirect(producto.id)}/>
             <h2 className='text-2xl'>{producto.Articulo}</h2>
-            <div className='rounded-xl bg-blue-400 p-1 px-4'>
-              <h3>Precio: S/ {producto.Precio}</h3>
+            <div className='rounded-xl bg-[#138F84] p-1 px-4 text-white'>
+              <h3>Precio: S/ {(producto.Precio).toFixed(2)}</h3>
             </div>
           </div>)
           )}
@@ -70,7 +74,7 @@ const Products = () => {
         <section className='flex justify-center items-center mt-5 p-5 gap-5'>
           {Array.from({ length: pages }, (_, index) => (
             <button  key={index} className={`p-2 text-xl font-medium rounded-xl ${
-              index + 1 === pageList ? 'bg-slate-400 text-white' : 'bg-gray-300 text-gray-700'
+              index + 1 === pageList ? 'bg-[#149968] text-white' : 'bg-[#138F84] text-gray-700'
             }`} onClick={()=>handleList(index+1)}>
               {index + 1}
             </button  >

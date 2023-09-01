@@ -64,8 +64,8 @@ const DataUser = () => {
             <>
             <ShowData nombre='Direccion' value={datosUsuario.direccion} />
             <ShowData nombre='Contraseña' value={datosUsuario.contraseña} />
-            <button onClick={()=>{setEdit(true)}} className='justify-center items-center col-span-2'>
-              <img src={editImage} alt="Boton editar" />
+            <button onClick={()=>{setEdit(true)}} className='justify-center items-center col-span-2 mt-4 ml-72 '>
+              <img className='bg-[#138F84] rounded-lg p-4' src={editImage} alt="Boton editar" />
             </button>
             </>
           ):(
@@ -78,7 +78,7 @@ const DataUser = () => {
                     <label className='ml-2 text-[1.328125rem] onlyLine' htmlFor='direccion'>Dirección</label>
                     <input id='direccion' className='rounded-[15px] h-10 w-[20rem] border-2 border-black pl-4' type="text" required placeholder='Direccion' onInput={(event) => handleChange(event, form, setForm)} value={form.direccion}/>
                   </div>
-                  <div className='flex col-span-2 justify-center items-center'>
+                  <div className='flex col-span-2 justify-center items-center bg-[#138F84] text-white font-semibold'>
                     <input type="submit" value="Guardar datos" />
                   </div>
                 </div>

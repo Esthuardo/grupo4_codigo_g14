@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react"
-import { useNavigate, useParams } from "react-router-dom"
+import { Link, useNavigate, useParams } from "react-router-dom"
 import useUserAuth from "../hooks/useUserAuth" 
 import { ErrorMessage, ProcesoCorrecto } from "../services/handle"
 import { UserContext } from "../context/UserContext"
@@ -68,8 +68,13 @@ const Product = () => {
 
   return (
     <>
-    <main className="flex justify-center items-center gap-10 p-16">
-      <div className="p-4 w-[40.625rem] h-[34.375rem] bg-red-500 justify-center flex">
+    <div className="ml-9 mt-5">
+      <Link to="/productos" className=" p-3 bg-[#17823C] rounded-2xl text-white text-2xl font-semibold">
+        {'Volver'}
+      </Link>
+    </div>
+    <section className="flex justify-center items-center gap-10 p-16 pt-5">
+      <div className="p-4 w-[40.625rem] h-[34.375rem] bg-[#14991D] bg-opacity-70 rounded-xl justify-center flex">
         <img src={producto.Image} alt="Producto" />
       </div>
       <div className="flex flex-col w-[25rem] gap-6">
@@ -85,19 +90,19 @@ const Product = () => {
             <p>Stock: {producto.Stock} unidades</p>
           </div>
         </div>
-        <div className="flex justify-center text-2xl">
-          <button className="bg-red-400 px-5 py-3 rounded-l-2xl w-[60px]" onClick={()=>operar(false)}>-</button>
-          <p className="px-5 py-3 w-[100px] text-center">{cantidad}</p>
-          <button className="bg-green-400 px-5 py-3 rounded-r-2xl w-[60px]" onClick={()=>operar(true)}>+</button>
+        <div className="flex justify-center text-2xl rounded-l-2xl text-white">
+          <button className="bg-red-500 px-5 py-3 rounded-l-2xl w-[60px] border border-black font-bold" onClick={()=>operar(false)}>-</button>
+          <p className="px-5 py-3 w-[100px] text-center border border-black text-black">{cantidad} </p>
+          <button className="bg-[#17823C] px-5 py-3 rounded-r-2xl w-[60px] border border-black font-bold" onClick={()=>operar(true)}>+</button>
         </div>
         <div className="flex justify-between text-1xl font-semibold px-5">
-          <button className="bg-red-400 px-5 py-1 flex items-center rounded-xl" onClick={agregarCarrito}>
+          <button className="bg-red-500 px-5 py-1 flex items-center rounded-xl text-white" onClick={agregarCarrito}>
             Añadir al carrito <img src={shopCart} alt="carrito" className="h-10 ml-2" />
           </button>
-          <button className="bg-green-400 px-5 py-1 rounded-xl" >Comprar</button>
+          <button className="bg-[#17823C] px-5 py-1 rounded-xl text-white" >Comprar</button>
         </div>
       </div>
-    </main>
+    </section>
     </>
   )
 }

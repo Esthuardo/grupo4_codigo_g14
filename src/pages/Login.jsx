@@ -10,6 +10,7 @@ import { userUserStats } from '../hooks/useUserStats'
 import { handleChange, ErrorMessage} from '../services/handle'
 
 import loginImage from '../assets/images/StaticImages/LoginImage.jpg'
+import AccesoryTec from '../assets/images/AccesoryTec.svg'
 
 const Login = () => {
   const navigate = useNavigate()
@@ -50,14 +51,14 @@ const Login = () => {
         <form onSubmit={handleLogin} className='flex flex-col gap-1'>
           <section className='flex justify-between mt-[2.38125rem] items-center'>
               <h1 className='font-bold text-[3.5rem]'>Login</h1>
-              <img className='w-[8rem] h-[8rem] rounded-full bg-red-300 mr-4' src="" alt="logo"/>
+              <img className='w-[8rem] h-[8rem] rounded-full mr-4 border border-black' src={AccesoryTec} alt="logo"/>
           </section>
           <section className='flex flex-col justify-center gap-10'>
             <div className='flex flex-col gap-5 items-center mt-10'>
               <InputEmail handleChange={()=>handleChange(event,form,setForm)} id='email' name='Correo electronico' placeHolder='user@user.com'/>
               <InputPassword handleChange={()=>handleChange(event,form,setForm)} id='contraseña' name='Contraseña' placeHolder='Ingrese su contraseña'/>
             </div>
-            <input className='cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-blue-500' type="submit" value="Ingresar"/>
+            <input className='cursor-pointer mx-auto mt-4 rounded-[15px] h-10 w-[21.9375rem]  border-2 border-black bg-[#17823C] text-white font-semibold text-2xl' type="submit" value="Ingresar"/>
           </section>
         </form>
         <div className='mr-28 flex-col flex gap-6 pb-8 mt-7 mb-16 items-end'>

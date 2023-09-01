@@ -20,7 +20,6 @@ const useUserAuth = () =>{
             await updatePassword(credencial.user,passwordNew)
             return true
         }catch (error){
-            console.log(error)
             return false
         }
     }

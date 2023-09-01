@@ -15,6 +15,7 @@ import Facebook from '../assets/images/Facebook.svg'
 import Whatsapp from '../assets/images/Whatsapp.svg'
 import Instagram from '../assets/images/Instagram.svg'
 import TikTok from '../assets/images/TikTok.svg'
+import AccesoryTec from '../assets/images/AccesoryTec.svg'
 
 const PrimaryLayout = () => {
   const navigate = useNavigate()
@@ -30,7 +31,6 @@ const PrimaryLayout = () => {
     const asignarValor = async() =>{
         const {obtenerCarrito} = userUserStats()
         const valor = await obtenerCarrito()
-        console.log(valor)
         setTotalValor(valor)
     }
     asignarValor()
@@ -59,24 +59,24 @@ const PrimaryLayout = () => {
   }
   return (
     <>
-        <header className='flex justify-between bg-red-400 h-[7.875ren] items-center px-4'>
+        <header className='flex justify-between bg-[#17823C] h-[7.875ren] items-center px-4'>
             <section className='flex gap-3 items-center py-2'>
-              <Link to="/"><img src="" alt="Logo" className='rounded-full bg-red-300 mr-4 h-[5rem] w-[5rem]' /></Link>
+              <Link to="/"><img src={AccesoryTec} alt="Logo" className='rounded-full bg-white mr-4 h-[5rem] w-[5rem]' /></Link>
               <Searcher/>
             </section>
             <section>
               <span className='text-3xl text-white font-bold cursor-pointer' onClick={()=>navigate('/productos')}> | Nuestros productos | </span>
             </section>
             <section className='flex gap-3'>
-              <div className='flex bg-yellow-400 items-center px-4 rounded-lg gap-4' onClick={handleOpenModal}>
+              <div className='flex bg-[#138F84] items-center px-4 rounded-lg gap-4 text-white' onClick={handleOpenModal}>
                 <img src={shopCar} alt='carrito' />
                 <label className='text-4xl font-bold'>{totalValor.toFixed(2)}</label>
               </div>
               <div>
-                <img src={user.image} alt="Usuario" onClick={handleShowMenu} className='cursor-pointer' />
-                <div className='bg-green-500 absolute top-[96px] right-0 w-[200px] rounded-b-lg px-3'>
+                <img src={user.image} alt="Usuario" onClick={handleShowMenu} className='cursor-pointer bg-white rounded-full p-2' />
+                <div className='bg-[#17823C] absolute top-[96px] right-0 w-[200px] rounded-b-lg px-3'>
                   {user.showMenu && (
-                    <ul className='cursor-pointer font-semibold text-[1.2rem] p-2'>
+                    <ul className='cursor-pointer font-semibold text-[1.2rem] p-2 text-white'>
                       {isAuth ? (
                         <>
                         <li onClick={()=>handleRedirect('compras')}>Mis compras</li>
