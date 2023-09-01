@@ -50,7 +50,7 @@ const ModalCarrito = ({ isOpen, onClose }) => {
             const producto = productos[nombreProducto]
             return(
               <>
-              <div key={nombreProducto} className='flex overflow-y-auto items-center justify-center gap-10'>
+              <div key={nombreProducto} className='flex overflow-y-auto items-center justify-center gap-10 border border-black'>
                 <img src={producto.imagen} alt="imagenproducto" className='w-40 h-40' />
                 <div className='flex flex-col items-center text-2xl'>
                   <h3>{nombreProducto}</h3>
@@ -66,21 +66,21 @@ const ModalCarrito = ({ isOpen, onClose }) => {
         <section className='flex flex-col gap-5 items-center justify-center'>
           <div className='flex gap-8 items-center'>
             <h2 className=' text-3xl'>Total</h2>
-            <div className='text-center bg-yellow-400 text-3xl p-5 rounded-2xl'>
+            <div className='text-center bg-[#138F84] text-3xl p-5 rounded-2xl text-white font-semibold'>
                 <h2>{totalValor.toFixed(2)}</h2>
             </div>
           </div>
-          <div className='flex gap-5'>
-            <label htmlFor="Efectivo" className='text-xl gap-3 flex items-center'> Efectivo
+          <div className='flex gap-5 m-4'>
+            <label htmlFor="Efectivo" className='text-2xl gap-3 flex items-center font-semibold'> Efectivo
                 <input type="radio" name="metodoPago" id='Efectivo' value='Efectivo' onChange={()=>handleMetodo('Efectivo')} />
             </label>
-            <label htmlFor="Efectivo" className='text-xl gap-3 flex items-center'> Transferencia
+            <label htmlFor="Efectivo" className='text-2xl gap-3 flex items-center font-semibold'> Transferencia
                 <input type="radio" name="metodoPago" id='Transferencia' value='Transferencia' onChange={()=>handleMetodo('Transferencia')} />
             </label>
           </div>
-          <div className='flex gap-5'>
-            <button disabled={!disponible} className='px-3 bg-green-400 rounded-xl'> Comprar </button>
-            <button className='px-3 bg-red-400 rounded-xl' onClick={onClose}> Cancelar </button>
+          <div className='flex gap-5 m-4 text-white font-semibold text-3xl'>
+            <button disabled={!disponible} className='px-3 bg-[#17823C] rounded-xl py-4'> Comprar </button>
+            <button className='px-3 bg-red-500 rounded-xl py-4' onClick={onClose}> Cancelar </button>
           </div>
         </section>
       </div>

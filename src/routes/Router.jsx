@@ -24,8 +24,8 @@ const Router = () => {
               <Route path="/" element={<PrimaryLayout />}>
                 <Route index element={<Home />} />
                 <Route path="/productos" element={<Products/>} />
-                <Route path="/producto/:id" element={<Product/>} />
                 <Route element={<PrivateRoutes/>}>
+                  <Route path="/producto/:id" element={<Product/>} />
                   <Route path="/compras" element={<Purchases/>} />
                   <Route path="/datos" element={<DataUser/>} />
                 </Route>
