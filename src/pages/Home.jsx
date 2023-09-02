@@ -3,7 +3,6 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-      {/* 02 body */}
       <section className='flex-col flex p-10'>
         <div className='flex m-auto'>
           <div className='flex overflow-hidden w-[1000px] h-[400px] '>
