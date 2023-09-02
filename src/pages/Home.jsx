@@ -10,10 +10,10 @@ const Home = () => {
             <input type="radio" name="radio-btn" id="radio2" />
             <input type="radio" name="radio-btn" id="radio3" />
             <input type="radio" name="radio-btn" id="radio4" />
-            <img src="https://placehold.co/1000x400" alt="Novedad1" />
-            <img src="https://placehold.co/1000x400" alt="Novedad2" />
-            <img src="https://placehold.co/1000x400" alt="Novedad3" />
-            <img src="https://placehold.co/1000x400" alt="Novedad4" />
+            <img src="https://placehold.co/1100x400" alt="Novedad1" />
+            <img src="https://placehold.co/1100x400" alt="Novedad2" />
+            <img src="https://placehold.co/1100x400" alt="Novedad3" />
+            <img src="https://placehold.co/1100x400" alt="Novedad4" />
             <div>
               <div className="a-b1"></div>
               <div className="a-b2"></div>
